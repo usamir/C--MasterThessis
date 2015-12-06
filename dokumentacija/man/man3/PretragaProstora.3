@@ -1,0 +1,221 @@
+.TH "PretragaProstora" 3 "Sat Aug 31 2013" "Version 1" "Magistarski aplikacija" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+PretragaProstora \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <pretraga_raspona\&.h>\fP
+.PP
+Inherits QWidget\&.
+.SS "Signals"
+
+.in +1c
+.ti -1c
+.RI "void \fBjelPretraga\fP (bool b)"
+.br
+.ti -1c
+.RI "void \fBjelCrtanje\fP (bool b)"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBPretragaProstora\fP (QWidget *parent=0)"
+.br
+.RI "\fIInstanca klase stablo duzi\&. \fP"
+.ti -1c
+.RI "\fB~PretragaProstora\fP ()"
+.br
+.ti -1c
+.RI "void \fBmousePressEvent\fP (QMouseEvent *dogadjaj)"
+.br
+.ti -1c
+.RI "void \fBmouseMoveEvent\fP (QMouseEvent *dogadjaj)"
+.br
+.ti -1c
+.RI "void \fBmouseReleaseEvent\fP (QMouseEvent *dogadjaj)"
+.br
+.ti -1c
+.RI "void \fBpaintEvent\fP (QPaintEvent *dogadjaj)"
+.br
+.ti -1c
+.RI "void \fBcrtaj\fP (QPainter *painter)"
+.br
+.ti -1c
+.RI "bool \fBkreirajIzFajla\fP (QString ime_fajla)"
+.br
+.ti -1c
+.RI "bool \fBspasiUFajl\fP (QString ime_fajla)"
+.br
+.ti -1c
+.RI "void \fBponistiOdabirDuzi\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBstate\fP \fBtrenutnoStanje\fP"
+.br
+.ti -1c
+.RI "QPoint \fBpocetak_prozora\fP"
+.br
+.RI "\fITrenutno stanje aplikacije\&. \fP"
+.ti -1c
+.RI "QPoint \fBstart\fP"
+.br
+.RI "\fIPocetna taèka prozora pretrage\&. \fP"
+.ti -1c
+.RI "QRubberBand * \fBizbor\fP"
+.br
+.RI "\fIPolazna taèka duži u fazi kada ih kreiramo\&. \fP"
+.ti -1c
+.RI "QVector< \fBDuz\fP > \fBvektorDuzi\fP"
+.br
+.RI "\fIIzabrani raspon\&. \fP"
+.ti -1c
+.RI "QVector< \fBKrajnjaTackaDuzi\fP > \fBvektorKrajnjihTacaka\fP"
+.br
+.RI "\fIVektor sa nacrtanim dužima\&. \fP"
+.ti -1c
+.RI "QPen \fBcrna\fP"
+.br
+.RI "\fIVektor krajnjih taèaka duži \fP"
+.ti -1c
+.RI "QPen \fBcrvena\fP"
+.br
+.RI "\fIBoja za oznacenu duzu\&. \fP"
+.ti -1c
+.RI "\fBStabloRaspona\fP \fBm_rtree\fP"
+.br
+.RI "\fIBoja za neoznacenu duz\&. \fP"
+.ti -1c
+.RI "\fBStabloDuzi\fP \fBm_stabloDuzi\fP"
+.br
+.RI "\fIInstanca klase stablo raspona\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 42 of file pretraga_raspona\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "PretragaProstora::PretragaProstora (QWidget *parent = \fC0\fP)\fC [explicit]\fP"
+
+.PP
+Instanca klase stablo duzi\&. 
+.PP
+Definition at line 4 of file pretraga_raspona\&.cpp\&.
+.SS "PretragaProstora::~PretragaProstora ()"
+
+.PP
+Definition at line 14 of file pretraga_raspona\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void PretragaProstora::crtaj (QPainter *painter)"
+
+.PP
+Definition at line 124 of file pretraga_raspona\&.cpp\&.
+.SS "void PretragaProstora::jelCrtanje (boolb)\fC [signal]\fP"
+
+.PP
+Definition at line 105 of file moc_pretraga_raspona\&.cpp\&.
+.SS "void PretragaProstora::jelPretraga (boolb)\fC [signal]\fP"
+
+.PP
+Definition at line 98 of file moc_pretraga_raspona\&.cpp\&.
+.SS "bool PretragaProstora::kreirajIzFajla (QStringime_fajla)"
+
+.PP
+Definition at line 143 of file pretraga_raspona\&.cpp\&.
+.SS "void PretragaProstora::mouseMoveEvent (QMouseEvent *dogadjaj)"
+
+.PP
+Definition at line 72 of file pretraga_raspona\&.cpp\&.
+.SS "void PretragaProstora::mousePressEvent (QMouseEvent *dogadjaj)"
+
+.PP
+Definition at line 26 of file pretraga_raspona\&.cpp\&.
+.SS "void PretragaProstora::mouseReleaseEvent (QMouseEvent *dogadjaj)"
+
+.PP
+Definition at line 81 of file pretraga_raspona\&.cpp\&.
+.SS "void PretragaProstora::paintEvent (QPaintEvent *dogadjaj)"
+
+.PP
+Definition at line 18 of file pretraga_raspona\&.cpp\&.
+.SS "void PretragaProstora::ponistiOdabirDuzi ()"
+
+.PP
+Definition at line 209 of file pretraga_raspona\&.cpp\&.
+.SS "bool PretragaProstora::spasiUFajl (QStringime_fajla)"
+
+.PP
+Definition at line 181 of file pretraga_raspona\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "QPen PretragaProstora::crna"
+
+.PP
+Vektor krajnjih taèaka duži 
+.PP
+Definition at line 53 of file pretraga_raspona\&.h\&.
+.SS "QPen PretragaProstora::crvena"
+
+.PP
+Boja za oznacenu duzu\&. 
+.PP
+Definition at line 54 of file pretraga_raspona\&.h\&.
+.SS "QRubberBand* PretragaProstora::izbor"
+
+.PP
+Polazna taèka duži u fazi kada ih kreiramo\&. 
+.PP
+Definition at line 50 of file pretraga_raspona\&.h\&.
+.SS "\fBStabloRaspona\fP PretragaProstora::m_rtree"
+
+.PP
+Boja za neoznacenu duz\&. 
+.PP
+Definition at line 55 of file pretraga_raspona\&.h\&.
+.SS "\fBStabloDuzi\fP PretragaProstora::m_stabloDuzi"
+
+.PP
+Instanca klase stablo raspona\&. 
+.PP
+Definition at line 56 of file pretraga_raspona\&.h\&.
+.SS "QPoint PretragaProstora::pocetak_prozora"
+
+.PP
+Trenutno stanje aplikacije\&. 
+.PP
+Definition at line 48 of file pretraga_raspona\&.h\&.
+.SS "QPoint PretragaProstora::start"
+
+.PP
+Pocetna taèka prozora pretrage\&. 
+.PP
+Definition at line 49 of file pretraga_raspona\&.h\&.
+.SS "\fBstate\fP PretragaProstora::trenutnoStanje"
+
+.PP
+Definition at line 47 of file pretraga_raspona\&.h\&.
+.SS "QVector<\fBDuz\fP> PretragaProstora::vektorDuzi"
+
+.PP
+Izabrani raspon\&. 
+.PP
+Definition at line 51 of file pretraga_raspona\&.h\&.
+.SS "QVector<\fBKrajnjaTackaDuzi\fP> PretragaProstora::vektorKrajnjihTacaka"
+
+.PP
+Vektor sa nacrtanim dužima\&. 
+.PP
+Definition at line 52 of file pretraga_raspona\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Magistarski aplikacija from the source code\&.

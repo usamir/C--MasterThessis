@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_elementarni_interval" kind="struct" prot="public">
+    <compoundname>ElementarniInterval</compoundname>
+    <includes refid="backup_2strukture_8h" local="no">strukture.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_elementarni_interval_1a1c9c457301eff27c5229e38be6a49419" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ElementarniInterval::pocetak</definition>
+        <argsstring></argsstring>
+        <name>pocetak</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="121" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_elementarni_interval_1a448a8542931b1cbf6ad0b073558360e3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ElementarniInterval::kraj</definition>
+        <argsstring></argsstring>
+        <name>kraj</name>
+        <briefdescription>
+<para>Koordinata pocetka intervala. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="122" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_elementarni_interval_1abec9e697717c2a43dd9596efca635b99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ElementarniInterval::postaviInterval</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>postaviInterval</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="124" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="124" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_elementarni_interval_1abec9e697717c2a43dd9596efca635b99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ElementarniInterval::postaviInterval</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>postaviInterval</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Koordinata kraja intervala. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="127" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="127" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Samir/app/backup/strukture.h" line="119" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="118" bodyend="127"/>
+    <listofallmembers>
+      <member refid="struct_elementarni_interval_1a448a8542931b1cbf6ad0b073558360e3" prot="public" virt="non-virtual"><scope>ElementarniInterval</scope><name>kraj</name></member>
+      <member refid="struct_elementarni_interval_1a1c9c457301eff27c5229e38be6a49419" prot="public" virt="non-virtual"><scope>ElementarniInterval</scope><name>pocetak</name></member>
+      <member refid="struct_elementarni_interval_1abec9e697717c2a43dd9596efca635b99" prot="public" virt="non-virtual"><scope>ElementarniInterval</scope><name>postaviInterval</name></member>
+      <member refid="struct_elementarni_interval_1abec9e697717c2a43dd9596efca635b99" prot="public" virt="non-virtual"><scope>ElementarniInterval</scope><name>postaviInterval</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,506 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_pretraga_prostora" kind="class" prot="public">
+    <compoundname>PretragaProstora</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="pretraga__raspona_8h" local="no">pretraga_raspona.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" prot="public" static="no" mutable="no">
+        <type><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90" kindref="member">state</ref></type>
+        <definition>state PretragaProstora::trenutnoStanje</definition>
+        <argsstring></argsstring>
+        <name>trenutnoStanje</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="47" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1a1b67cf84d7be3e32d4d93bdd9ae14deb" prot="public" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint PretragaProstora::pocetak_prozora</definition>
+        <argsstring></argsstring>
+        <name>pocetak_prozora</name>
+        <briefdescription>
+<para>Trenutno stanje aplikacije. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="48" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1a5a852eb02e2b72c6a5d76c6014be973c" prot="public" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint PretragaProstora::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+<para>Pocetna taèka prozora pretrage. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="49" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" prot="public" static="no" mutable="no">
+        <type>QRubberBand *</type>
+        <definition>QRubberBand* PretragaProstora::izbor</definition>
+        <argsstring></argsstring>
+        <name>izbor</name>
+        <briefdescription>
+<para>Polazna taèka duži u fazi kada ih kreiramo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="50" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" prot="public" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="struct_duz" kindref="compound">Duz</ref> &gt;</type>
+        <definition>QVector&lt;Duz&gt; PretragaProstora::vektorDuzi</definition>
+        <argsstring></argsstring>
+        <name>vektorDuzi</name>
+        <briefdescription>
+<para>Izabrani raspon. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="51" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" prot="public" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+        <definition>QVector&lt;KrajnjaTackaDuzi&gt; PretragaProstora::vektorKrajnjihTacaka</definition>
+        <argsstring></argsstring>
+        <name>vektorKrajnjihTacaka</name>
+        <briefdescription>
+<para>Vektor sa nacrtanim dužima. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="52" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1ae8c588bb3ba72d89da47ef6acb56d666" prot="public" static="no" mutable="no">
+        <type>QPen</type>
+        <definition>QPen PretragaProstora::crna</definition>
+        <argsstring></argsstring>
+        <name>crna</name>
+        <briefdescription>
+<para>Vektor krajnjih taèaka duži </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="53" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1acc5253bae5ddafcd62073e8f88b21591" prot="public" static="no" mutable="no">
+        <type>QPen</type>
+        <definition>QPen PretragaProstora::crvena</definition>
+        <argsstring></argsstring>
+        <name>crvena</name>
+        <briefdescription>
+<para>Boja za oznacenu duzu. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="54" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1a1aebe38ac90814aabf6de6eeae3930e4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_stablo_raspona" kindref="compound">StabloRaspona</ref></type>
+        <definition>StabloRaspona PretragaProstora::m_rtree</definition>
+        <argsstring></argsstring>
+        <name>m_rtree</name>
+        <briefdescription>
+<para>Boja za neoznacenu duz. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="55" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" prot="public" static="no" mutable="no">
+        <type><ref refid="class_stablo_duzi" kindref="compound">StabloDuzi</ref></type>
+        <definition>StabloDuzi PretragaProstora::m_stabloDuzi</definition>
+        <argsstring></argsstring>
+        <name>m_stabloDuzi</name>
+        <briefdescription>
+<para>Instanca klase stablo raspona. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="56" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pretraga_prostora_1a9dcae5cdc25396e7c3d7d5800e40aa21" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PretragaProstora::PretragaProstora</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>PretragaProstora</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Instanca klase stablo duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="68" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="4" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1aec70c57efb108f48afd9b6a7bb1a51d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PretragaProstora::~PretragaProstora</definition>
+        <argsstring>()</argsstring>
+        <name>~PretragaProstora</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="73" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1a7d9629f10ac2734e46650cfe5d9e7678" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::mousePressEvent</definition>
+        <argsstring>(QMouseEvent *dogadjaj)</argsstring>
+        <name>mousePressEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>dogadjaj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="80" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="26" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1aa829d10b5853ebec128e4ea5e8d9c50d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::mouseMoveEvent</definition>
+        <argsstring>(QMouseEvent *dogadjaj)</argsstring>
+        <name>mouseMoveEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>dogadjaj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="87" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1a824208ae98979eac421e98777269dd89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::mouseReleaseEvent</definition>
+        <argsstring>(QMouseEvent *dogadjaj)</argsstring>
+        <name>mouseReleaseEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>dogadjaj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="96" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="81" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1a1eae55313168c7878a04791904aca24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::paintEvent</definition>
+        <argsstring>(QPaintEvent *dogadjaj)</argsstring>
+        <name>paintEvent</name>
+        <param>
+          <type>QPaintEvent *</type>
+          <declname>dogadjaj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="103" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1a6d7560ae44bcc2346a73b84537d3e56e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::crtaj</definition>
+        <argsstring>(QPainter *painter)</argsstring>
+        <name>crtaj</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>painter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="111" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="124" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1a77c67e48ced1ac4d64ba45fd091ed743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PretragaProstora::kreirajIzFajla</definition>
+        <argsstring>(QString ime_fajla)</argsstring>
+        <name>kreirajIzFajla</name>
+        <param>
+          <type>QString</type>
+          <declname>ime_fajla</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="119" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="143" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1a03158f7f63fe042715c1c87dd5030a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PretragaProstora::spasiUFajl</definition>
+        <argsstring>(QString ime_fajla)</argsstring>
+        <name>spasiUFajl</name>
+        <param>
+          <type>QString</type>
+          <declname>ime_fajla</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="127" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="181" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pretraga_prostora_1ad2c92c0d42c2a9c23788fcb352502e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::ponistiOdabirDuzi</definition>
+        <argsstring>()</argsstring>
+        <name>ponistiOdabirDuzi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="134" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="209" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_pretraga_prostora_1ac5fba02046d1f05264a9ea0780afa9a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::idiUStanjeCrtanja</definition>
+        <argsstring>()</argsstring>
+        <name>idiUStanjeCrtanja</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="143" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="218" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_pretraga_prostora_1a939109ae80f68d1ce7091c49d70e6d55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::idiUStanjePretrage</definition>
+        <argsstring>()</argsstring>
+        <name>idiUStanjePretrage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="150" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="231" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_pretraga_prostora_1a5dc38b32cadfc8605961514ef03f9e50" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="156" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="273" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_pretraga_prostora_1a7460b1e267492f08b9c7ae6bf44411f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::otvoriFajl</definition>
+        <argsstring>()</argsstring>
+        <name>otvoriFajl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="162" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="285" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_pretraga_prostora_1a3aadf01559a961d959beb7f35465a2b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::spasiFajl</definition>
+        <argsstring>()</argsstring>
+        <name>spasiFajl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="168" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="305" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_pretraga_prostora_1ac3aa3438c49bae16877417876ada1f65" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::informacije</definition>
+        <argsstring>()</argsstring>
+        <name>informacije</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="173" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="318" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_pretraga_prostora_1a6a36b9e7526a9237839771b2c6c2b836" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::pomoc</definition>
+        <argsstring>()</argsstring>
+        <name>pomoc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="178" column="1" bodyfile="D:/Samir/app/pretraga_raspona.cpp" bodystart="325" bodyend="341"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_pretraga_prostora_1ab2120067abfe1b99db49c801859e2580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::jelPretraga</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>jelPretraga</name>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="186" column="1" bodyfile="D:/Samir/app/GeneratedFiles/Debug/moc_pretraga_raspona.cpp" bodystart="98" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_pretraga_prostora_1a2242f0fcbad64cd5a1d862eacc4b1075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PretragaProstora::jelCrtanje</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>jelCrtanje</name>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/pretraga_raspona.h" line="191" column="1" bodyfile="D:/Samir/app/GeneratedFiles/Debug/moc_pretraga_raspona.cpp" bodystart="105" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>PretragaProstora</label>
+        <link refid="class_pretraga_prostora"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>PretragaProstora</label>
+        <link refid="class_pretraga_prostora"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>m_rtree</edgelabel>
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>m_stabloDuzi</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>StabloDuzi</label>
+        <link refid="class_stablo_duzi"/>
+      </node>
+      <node id="24">
+        <label>QWidget</label>
+      </node>
+      <node id="25">
+        <label>StabloRaspona</label>
+        <link refid="class_stablo_raspona"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Samir/app/pretraga_raspona.h" line="43" column="1" bodyfile="D:/Samir/app/pretraga_raspona.h" bodystart="42" bodyend="192"/>
+    <listofallmembers>
+      <member refid="class_pretraga_prostora_1ae8c588bb3ba72d89da47ef6acb56d666" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>crna</name></member>
+      <member refid="class_pretraga_prostora_1a6d7560ae44bcc2346a73b84537d3e56e" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>crtaj</name></member>
+      <member refid="class_pretraga_prostora_1acc5253bae5ddafcd62073e8f88b21591" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>crvena</name></member>
+      <member refid="class_pretraga_prostora_1ac5fba02046d1f05264a9ea0780afa9a7" prot="private" virt="non-virtual"><scope>PretragaProstora</scope><name>idiUStanjeCrtanja</name></member>
+      <member refid="class_pretraga_prostora_1a939109ae80f68d1ce7091c49d70e6d55" prot="private" virt="non-virtual"><scope>PretragaProstora</scope><name>idiUStanjePretrage</name></member>
+      <member refid="class_pretraga_prostora_1ac3aa3438c49bae16877417876ada1f65" prot="private" virt="non-virtual"><scope>PretragaProstora</scope><name>informacije</name></member>
+      <member refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>izbor</name></member>
+      <member refid="class_pretraga_prostora_1a2242f0fcbad64cd5a1d862eacc4b1075" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>jelCrtanje</name></member>
+      <member refid="class_pretraga_prostora_1ab2120067abfe1b99db49c801859e2580" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>jelPretraga</name></member>
+      <member refid="class_pretraga_prostora_1a77c67e48ced1ac4d64ba45fd091ed743" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>kreirajIzFajla</name></member>
+      <member refid="class_pretraga_prostora_1a1aebe38ac90814aabf6de6eeae3930e4" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>m_rtree</name></member>
+      <member refid="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>m_stabloDuzi</name></member>
+      <member refid="class_pretraga_prostora_1aa829d10b5853ebec128e4ea5e8d9c50d" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>mouseMoveEvent</name></member>
+      <member refid="class_pretraga_prostora_1a7d9629f10ac2734e46650cfe5d9e7678" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>mousePressEvent</name></member>
+      <member refid="class_pretraga_prostora_1a824208ae98979eac421e98777269dd89" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>mouseReleaseEvent</name></member>
+      <member refid="class_pretraga_prostora_1a7460b1e267492f08b9c7ae6bf44411f4" prot="private" virt="non-virtual"><scope>PretragaProstora</scope><name>otvoriFajl</name></member>
+      <member refid="class_pretraga_prostora_1a1eae55313168c7878a04791904aca24d" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>paintEvent</name></member>
+      <member refid="class_pretraga_prostora_1a1b67cf84d7be3e32d4d93bdd9ae14deb" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>pocetak_prozora</name></member>
+      <member refid="class_pretraga_prostora_1a6a36b9e7526a9237839771b2c6c2b836" prot="private" virt="non-virtual"><scope>PretragaProstora</scope><name>pomoc</name></member>
+      <member refid="class_pretraga_prostora_1ad2c92c0d42c2a9c23788fcb352502e4c" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>ponistiOdabirDuzi</name></member>
+      <member refid="class_pretraga_prostora_1a9dcae5cdc25396e7c3d7d5800e40aa21" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>PretragaProstora</name></member>
+      <member refid="class_pretraga_prostora_1a5dc38b32cadfc8605961514ef03f9e50" prot="private" virt="non-virtual"><scope>PretragaProstora</scope><name>reset</name></member>
+      <member refid="class_pretraga_prostora_1a3aadf01559a961d959beb7f35465a2b0" prot="private" virt="non-virtual"><scope>PretragaProstora</scope><name>spasiFajl</name></member>
+      <member refid="class_pretraga_prostora_1a03158f7f63fe042715c1c87dd5030a9c" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>spasiUFajl</name></member>
+      <member refid="class_pretraga_prostora_1a5a852eb02e2b72c6a5d76c6014be973c" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>start</name></member>
+      <member refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>trenutnoStanje</name></member>
+      <member refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>vektorDuzi</name></member>
+      <member refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>vektorKrajnjihTacaka</name></member>
+      <member refid="class_pretraga_prostora_1aec70c57efb108f48afd9b6a7bb1a51d5" prot="public" virt="non-virtual"><scope>PretragaProstora</scope><name>~PretragaProstora</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

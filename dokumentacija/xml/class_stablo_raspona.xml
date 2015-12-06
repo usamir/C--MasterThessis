@@ -1,0 +1,627 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_stablo_raspona" kind="class" prot="public">
+    <compoundname>StabloRaspona</compoundname>
+    <includes refid="backup_2stablo__raspona_8h" local="no">stablo_raspona.h</includes>
+    <innerclass refid="struct_stablo_raspona_1_1_cvor" prot="private">StabloRaspona::Cvor</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" prot="public" static="no">
+        <type>boost::shared_ptr&lt; Cvor &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;Cvor&gt; StabloRaspona::pCvor</definition>
+        <argsstring></argsstring>
+        <name>pCvor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="32" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stablo_raspona_1a8dfdd93c7a804491682d3d6b2cba6f62" prot="private" static="no" mutable="no">
+        <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+        <definition>QVector&lt; KrajnjaTackaDuzi &gt; StabloRaspona::rezultat</definition>
+        <argsstring></argsstring>
+        <name>rezultat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="35" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stablo_raspona_1a8dfa4806bd7e00df48d6011f1ee042fc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StabloRaspona::m_dimenzija</definition>
+        <argsstring></argsstring>
+        <name>m_dimenzija</name>
+        <briefdescription>
+<para>Vektor krajnjih tacaka u koji pohranjujemo rezultat pretrage stabla raspona. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="36" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stablo_raspona_1a13059d30f43d6ef366b84e4394a214ff" prot="private" static="no" mutable="no">
+        <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+        <definition>pCvor StabloRaspona::m_korijen</definition>
+        <argsstring></argsstring>
+        <name>m_korijen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="37" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stablo_raspona_1a3be8cdcb0d14d3acdf8f4ac3f6db5b20" prot="private" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloRaspona::m_korijen</definition>
+        <argsstring></argsstring>
+        <name>m_korijen</name>
+        <briefdescription>
+<para>Dimenzija stabla raspona koje pravimo tj. koje cemo pretraziti. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="39" column="1" bodyfile="D:/Samir/app/stablo_raspona.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_stablo_raspona_1affc61432eb2b5c8c17863cec70a3105b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+        <definition>StabloRaspona::Cvor::pCvor StabloRaspona::sortiranjeTacaka</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dimenzija)</argsstring>
+        <name>sortiranjeTacaka</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="39" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="86" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a356ef96302d9b96574fb7e54dd3d5106" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+        <definition>StabloRaspona::Cvor::pCvor StabloRaspona::napraviStablo</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dimenzija)</argsstring>
+        <name>napraviStablo</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="40" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="52" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1aa40386260f47c5eda162c1b350307bd7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::podijeliNiz</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, QVector&lt; KrajnjaTackaDuzi &gt; &amp;lijeve_tacke, QVector&lt; KrajnjaTackaDuzi &gt; &amp;desne_tacke)</argsstring>
+        <name>podijeliNiz</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt; &amp;</type>
+          <declname>lijeve_tacke</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt; &amp;</type>
+          <declname>desne_tacke</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="41" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="25" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a9d7f933c0ee2a442d0565de4c821299a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+        <definition>StabloRaspona::Cvor::pCvor StabloRaspona::razdvajajuciCvor</definition>
+        <argsstring>(pCvor korijen, int pocetak, int kraj, int dimenzija)</argsstring>
+        <name>razdvajajuciCvor</name>
+        <param>
+          <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+          <declname>korijen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pocetak</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kraj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="42" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="107" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1addfd4e68facab764b46a065bcf1f240b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::jednoDimenzionalnaPretragaRaspona</definition>
+        <argsstring>(pCvor korjen, int x1, int x2)</argsstring>
+        <name>jednoDimenzionalnaPretragaRaspona</name>
+        <param>
+          <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+          <declname>korjen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="43" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="143" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a0e082ddef5dae03fa42526f164e29e6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::prijaviPodstablo</definition>
+        <argsstring>(pCvor cvor)</argsstring>
+        <name>prijaviPodstablo</name>
+        <param>
+          <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+          <declname>cvor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="44" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="205" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a89d68a6893b7c9d201e8dbe35318f4eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool StabloRaspona::jelList</definition>
+        <argsstring>(pCvor cvor)</argsstring>
+        <name>jelList</name>
+        <param>
+          <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+          <declname>cvor</declname>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="45" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="223" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a0651ed6fd62153bd8cea5023e7b81fc2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::dvodimenzionalnaPretragaRaspona</definition>
+        <argsstring>(pCvor korjen, int x1, int x2, int y1, int y2)</argsstring>
+        <name>dvodimenzionalnaPretragaRaspona</name>
+        <param>
+          <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+          <declname>korjen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="46" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="243" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1ac34bf52c60fdb8d7359f341f4068fffd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloRaspona::sortiranjeTacaka</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dimenzija)</argsstring>
+        <name>sortiranjeTacaka</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+<para>Pokazivac na korijen stabla raspona. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1aad557d347c2b5697927c70efb0905d3f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloRaspona::napraviStablo</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dimenzija)</argsstring>
+        <name>napraviStablo</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1aa40386260f47c5eda162c1b350307bd7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::podijeliNiz</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, QVector&lt; KrajnjaTackaDuzi &gt; &amp;lijeve_tacke, QVector&lt; KrajnjaTackaDuzi &gt; &amp;desne_tacke)</argsstring>
+        <name>podijeliNiz</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt; &amp;</type>
+          <declname>lijeve_tacke</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt; &amp;</type>
+          <declname>desne_tacke</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1ad0d9723e19f53dcf0b54edea764389a2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloRaspona::razdvajajuciCvor</definition>
+        <argsstring>(Cvor::pCvor korijen, int pocetak, int kraj, int dimenzija)</argsstring>
+        <name>razdvajajuciCvor</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>korijen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pocetak</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kraj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a8f62adc97e3c5d8ee97a6983d8fc032a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::prijaviPodstablo</definition>
+        <argsstring>(Cvor::pCvor cvor)</argsstring>
+        <name>prijaviPodstablo</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>cvor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a0d668368059b596aedae33c958a64d45" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool StabloRaspona::jelList</definition>
+        <argsstring>(Cvor::pCvor cvor)</argsstring>
+        <name>jelList</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>cvor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1a5c140f3b87227a60af3002fa6c72cd4d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::pretragaRaspona</definition>
+        <argsstring>(Cvor::pCvor korjen, KrajnjaTackaDuzi pocetak, KrajnjaTackaDuzi kraj, int dim)</argsstring>
+        <name>pretragaRaspona</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>korjen</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref></type>
+          <declname>pocetak</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref></type>
+          <declname>kraj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="108" column="1" bodyfile="D:/Samir/app/stablo_raspona.cpp" bodystart="127" bodyend="247"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stablo_raspona_1ad4ed5d791e2b8adb6563cff8b55544c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StabloRaspona::StabloRaspona</definition>
+        <argsstring>()</argsstring>
+        <name>StabloRaspona</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="48" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1abbdeacd2b1807bb4cdc524e651d2c80a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StabloRaspona::StabloRaspona</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dimenzija)</argsstring>
+        <name>StabloRaspona</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>@ brief Konstruktor Stabla Raspona</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">tacke</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vektor kranjih taèaka duži koje æemo pretraziti </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">dimenzija</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>u kojoj æemo stablo raspona napraviti </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="49" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1aba64a9f4197752410506cd514bb80f53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::pretragaRaspona</definition>
+        <argsstring>(int x1, int x2, int y1, int y2)</argsstring>
+        <name>pretragaRaspona</name>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="50" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.cpp" bodystart="131" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1aa4426f8f780183052feedc79721648c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+        <definition>QVector&lt;KrajnjaTackaDuzi&gt; StabloRaspona::dajRezultat</definition>
+        <argsstring>()</argsstring>
+        <name>dajRezultat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="51" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1ad4ed5d791e2b8adb6563cff8b55544c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StabloRaspona::StabloRaspona</definition>
+        <argsstring>()</argsstring>
+        <name>StabloRaspona</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1abbdeacd2b1807bb4cdc524e651d2c80a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StabloRaspona::StabloRaspona</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dimenzija)</argsstring>
+        <name>StabloRaspona</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1ab15582f7f4c015c21295b4957cfd49a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloRaspona::pretragaRaspona</definition>
+        <argsstring>(KrajnjaTackaDuzi pocetak, KrajnjaTackaDuzi kraj, int dim)</argsstring>
+        <name>pretragaRaspona</name>
+        <param>
+          <type><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref></type>
+          <declname>pocetak</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref></type>
+          <declname>kraj</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="132" column="1" bodyfile="D:/Samir/app/stablo_raspona.cpp" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_raspona_1af93cb0b9ee1ca56fe1682281df955f03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+        <definition>QVector&lt;KrajnjaTackaDuzi&gt; StabloRaspona::vratiRezultat</definition>
+        <argsstring>()</argsstring>
+        <name>vratiRezultat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="138" column="1" bodyfile="D:/Samir/app/stablo_raspona.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Samir/app/backup/stablo_raspona.h" line="17" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="16" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_stablo_raspona_1aa4426f8f780183052feedc79721648c3" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>dajRezultat</name></member>
+      <member refid="class_stablo_raspona_1a0651ed6fd62153bd8cea5023e7b81fc2" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>dvodimenzionalnaPretragaRaspona</name></member>
+      <member refid="class_stablo_raspona_1addfd4e68facab764b46a065bcf1f240b" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>jednoDimenzionalnaPretragaRaspona</name></member>
+      <member refid="class_stablo_raspona_1a89d68a6893b7c9d201e8dbe35318f4eb" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>jelList</name></member>
+      <member refid="class_stablo_raspona_1a0d668368059b596aedae33c958a64d45" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>jelList</name></member>
+      <member refid="class_stablo_raspona_1a8dfa4806bd7e00df48d6011f1ee042fc" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>m_dimenzija</name></member>
+      <member refid="class_stablo_raspona_1a13059d30f43d6ef366b84e4394a214ff" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>m_korijen</name></member>
+      <member refid="class_stablo_raspona_1a3be8cdcb0d14d3acdf8f4ac3f6db5b20" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>m_korijen</name></member>
+      <member refid="class_stablo_raspona_1a356ef96302d9b96574fb7e54dd3d5106" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>napraviStablo</name></member>
+      <member refid="class_stablo_raspona_1aad557d347c2b5697927c70efb0905d3f" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>napraviStablo</name></member>
+      <member refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>pCvor</name></member>
+      <member refid="class_stablo_raspona_1aa40386260f47c5eda162c1b350307bd7" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>podijeliNiz</name></member>
+      <member refid="class_stablo_raspona_1aa40386260f47c5eda162c1b350307bd7" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>podijeliNiz</name></member>
+      <member refid="class_stablo_raspona_1aba64a9f4197752410506cd514bb80f53" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>pretragaRaspona</name></member>
+      <member refid="class_stablo_raspona_1a5c140f3b87227a60af3002fa6c72cd4d" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>pretragaRaspona</name></member>
+      <member refid="class_stablo_raspona_1ab15582f7f4c015c21295b4957cfd49a7" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>pretragaRaspona</name></member>
+      <member refid="class_stablo_raspona_1a0e082ddef5dae03fa42526f164e29e6d" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>prijaviPodstablo</name></member>
+      <member refid="class_stablo_raspona_1a8f62adc97e3c5d8ee97a6983d8fc032a" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>prijaviPodstablo</name></member>
+      <member refid="class_stablo_raspona_1a9d7f933c0ee2a442d0565de4c821299a" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>razdvajajuciCvor</name></member>
+      <member refid="class_stablo_raspona_1ad0d9723e19f53dcf0b54edea764389a2" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>razdvajajuciCvor</name></member>
+      <member refid="class_stablo_raspona_1a8dfdd93c7a804491682d3d6b2cba6f62" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>rezultat</name></member>
+      <member refid="class_stablo_raspona_1affc61432eb2b5c8c17863cec70a3105b" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>sortiranjeTacaka</name></member>
+      <member refid="class_stablo_raspona_1ac34bf52c60fdb8d7359f341f4068fffd" prot="private" virt="non-virtual"><scope>StabloRaspona</scope><name>sortiranjeTacaka</name></member>
+      <member refid="class_stablo_raspona_1ad4ed5d791e2b8adb6563cff8b55544c5" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>StabloRaspona</name></member>
+      <member refid="class_stablo_raspona_1abbdeacd2b1807bb4cdc524e651d2c80a" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>StabloRaspona</name></member>
+      <member refid="class_stablo_raspona_1ad4ed5d791e2b8adb6563cff8b55544c5" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>StabloRaspona</name></member>
+      <member refid="class_stablo_raspona_1abbdeacd2b1807bb4cdc524e651d2c80a" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>StabloRaspona</name></member>
+      <member refid="class_stablo_raspona_1af93cb0b9ee1ca56fe1682281df955f03" prot="public" virt="non-virtual"><scope>StabloRaspona</scope><name>vratiRezultat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

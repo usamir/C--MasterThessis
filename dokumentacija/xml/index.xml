@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.5">
+  <compound refid="struct_stablo_duzi_1_1_asocijativni_cvor" kind="struct"><name>StabloDuzi::AsocijativniCvor</name>
+    <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a2e5d08a307d13771e0316aaa3ecabcc6" kind="variable"><name>m_elementarni_interval</name></member>
+    <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a5f82ba43e3eae6db009a70992369a224" kind="variable"><name>idDuzi</name></member>
+    <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a47a041893c15e7cafd55d1df1c63c51d" kind="variable"><name>vrijednostPresjeka</name></member>
+    <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a5b030166d0f1b297df96d74b76e818d8" kind="function"><name>postaviVrijednost</name></member>
+  </compound>
+  <compound refid="struct_stablo_raspona_1_1_cvor" kind="struct"><name>StabloRaspona::Cvor</name>
+    <member refid="struct_stablo_raspona_1_1_cvor_1aa46aa06d2d60d7506c272572080d97d4" kind="typedef"><name>pCvor</name></member>
+    <member refid="struct_stablo_raspona_1_1_cvor_1aa18db5d07e9fe7ffb804ac67f429444a" kind="variable"><name>lijevo_dijete</name></member>
+    <member refid="struct_stablo_raspona_1_1_cvor_1a7971c0f543f1c293d106b36026ff8c7a" kind="variable"><name>desno_dijete</name></member>
+    <member refid="struct_stablo_raspona_1_1_cvor_1a7b76d86a0f3232d0d5a374179ddd2f86" kind="variable"><name>p_korijen_sljedece_dim</name></member>
+    <member refid="struct_stablo_raspona_1_1_cvor_1a7b7ecc296f7ace4e2ccdd7bcb06892dd" kind="variable"><name>vrijednost</name></member>
+    <member refid="struct_stablo_raspona_1_1_cvor_1a023535f5762d46bbbb4157d7d628065d" kind="variable"><name>lijevo_dijete</name></member>
+    <member refid="struct_stablo_raspona_1_1_cvor_1a890fa63e1df79bc9d75c0f88ec84b331" kind="variable"><name>desno_dijete</name></member>
+    <member refid="struct_stablo_raspona_1_1_cvor_1a5dfd844264264ab05ca44c4bdef0e441" kind="variable"><name>p_korijen_sljedece_dim</name></member>
+  </compound>
+  <compound refid="struct_stablo_duzi_1_1_cvor" kind="struct"><name>StabloDuzi::Cvor</name>
+    <member refid="struct_stablo_duzi_1_1_cvor_1a1b47ca288d206815b063cb13c8bf5908" kind="variable"><name>lijevo_dijete</name></member>
+    <member refid="struct_stablo_duzi_1_1_cvor_1ade64c64ad32eb229615354ba45949aa7" kind="variable"><name>desno_dijete</name></member>
+    <member refid="struct_stablo_duzi_1_1_cvor_1ad1c5f456f4dd4e50e36ee588a2bc2198" kind="variable"><name>m_AsocijativnaStruktura</name></member>
+    <member refid="struct_stablo_duzi_1_1_cvor_1ab76df6b1a6a6ed93a1a50e2b84069d09" kind="variable"><name>m_elementarni_interval</name></member>
+    <member refid="struct_stablo_duzi_1_1_cvor_1a5446dc699c1148c3785bc0ac86c37730" kind="variable"><name>p_korijen_sljedece_dim</name></member>
+  </compound>
+  <compound refid="struct_duz" kind="struct"><name>Duz</name>
+    <member refid="struct_duz_1a6582e411e3bdea514ede58e1b62c10c5" kind="variable"><name>m_startnaKoordinata</name></member>
+    <member refid="struct_duz_1a0b7f63e094c2c3c7302b23910b3ab80a" kind="variable"><name>m_krajnjaKoordinata</name></member>
+    <member refid="struct_duz_1a27a7718b0b7fc9e0a6e3ffb1dda4c99e" kind="variable"><name>oznacena</name></member>
+    <member refid="struct_duz_1a8ec6e501e8ac0e95c4a863de6d46d0ed" kind="variable"><name>m_IDDuzi</name></member>
+    <member refid="struct_duz_1a554fe11a180cd764811139fd01bf4497" kind="function"><name>vratiIdDuzi</name></member>
+    <member refid="struct_duz_1abd5a20344f28f0aa7e1866158eee381e" kind="function"><name>postaviIDDuzi</name></member>
+    <member refid="struct_duz_1aeefdf37bfc9720b43463bf8bc938e9ec" kind="function"><name>jelOznacena</name></member>
+    <member refid="struct_duz_1a387f037e652d79a998985a2f9893614a" kind="function"><name>oznaciDuz</name></member>
+    <member refid="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" kind="function"><name>ponistiOznacenuDuz</name></member>
+    <member refid="struct_duz_1a2662b456f15f42794ddb5c1bfc3f6bb4" kind="function"><name>vratiPocetnuKoordinatu</name></member>
+    <member refid="struct_duz_1a3110e0ae026af8d6bb2d5de7662e7f8b" kind="function"><name>vratiPocetnuKoordinatu</name></member>
+    <member refid="struct_duz_1af397176a5357fecb7f785ad9685d53b2" kind="function"><name>vratiKrajnjuKoordinatu</name></member>
+    <member refid="struct_duz_1a3729d02c0b3d5b8181b398dc81ec79a4" kind="function"><name>vratiKrajnjuKoordinatu</name></member>
+    <member refid="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" kind="function"><name>postaviPocetnuKoordinatu</name></member>
+    <member refid="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" kind="function"><name>postaviKrajnjuKoordinatu</name></member>
+    <member refid="struct_duz_1a554fe11a180cd764811139fd01bf4497" kind="function"><name>vratiIdDuzi</name></member>
+    <member refid="struct_duz_1abd5a20344f28f0aa7e1866158eee381e" kind="function"><name>postaviIDDuzi</name></member>
+    <member refid="struct_duz_1aeefdf37bfc9720b43463bf8bc938e9ec" kind="function"><name>jelOznacena</name></member>
+    <member refid="struct_duz_1a387f037e652d79a998985a2f9893614a" kind="function"><name>oznaciDuz</name></member>
+    <member refid="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" kind="function"><name>ponistiOznacenuDuz</name></member>
+    <member refid="struct_duz_1a2662b456f15f42794ddb5c1bfc3f6bb4" kind="function"><name>vratiPocetnuKoordinatu</name></member>
+    <member refid="struct_duz_1a3110e0ae026af8d6bb2d5de7662e7f8b" kind="function"><name>vratiPocetnuKoordinatu</name></member>
+    <member refid="struct_duz_1af397176a5357fecb7f785ad9685d53b2" kind="function"><name>vratiKrajnjuKoordinatu</name></member>
+    <member refid="struct_duz_1a3729d02c0b3d5b8181b398dc81ec79a4" kind="function"><name>vratiKrajnjuKoordinatu</name></member>
+    <member refid="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" kind="function"><name>postaviPocetnuKoordinatu</name></member>
+    <member refid="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" kind="function"><name>postaviKrajnjuKoordinatu</name></member>
+  </compound>
+  <compound refid="struct_elementarni_interval" kind="struct"><name>ElementarniInterval</name>
+    <member refid="struct_elementarni_interval_1a1c9c457301eff27c5229e38be6a49419" kind="variable"><name>pocetak</name></member>
+    <member refid="struct_elementarni_interval_1a448a8542931b1cbf6ad0b073558360e3" kind="variable"><name>kraj</name></member>
+    <member refid="struct_elementarni_interval_1abec9e697717c2a43dd9596efca635b99" kind="function"><name>postaviInterval</name></member>
+    <member refid="struct_elementarni_interval_1abec9e697717c2a43dd9596efca635b99" kind="function"><name>postaviInterval</name></member>
+  </compound>
+  <compound refid="struct_krajnja_tacka_duzi" kind="struct"><name>KrajnjaTackaDuzi</name>
+    <member refid="struct_krajnja_tacka_duzi_1a55c60f0a683384f9ed4ec775f94b7ef9" kind="variable"><name>m_koordinata</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a5a2902394ae656aeb3f3b9bedb2050ac" kind="variable"><name>m_idDuzi</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a8742c9111c3d47d4edf758d7a986b12b" kind="function"><name>vratiIdDuzi</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a73f22332c57426edefcf872f97954851" kind="function"><name>vratiKoordinatu</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" kind="function"><name>postaviKoordinatu</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" kind="function"><name>postaviIdDuzi</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a8742c9111c3d47d4edf758d7a986b12b" kind="function"><name>vratiIdDuzi</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a73f22332c57426edefcf872f97954851" kind="function"><name>vratiKoordinatu</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" kind="function"><name>postaviKoordinatu</name></member>
+    <member refid="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" kind="function"><name>postaviIdDuzi</name></member>
+  </compound>
+  <compound refid="struct_stablo_duzi_1_1_poredjenje_po_vrijednosti_presjeka" kind="struct"><name>StabloDuzi::PoredjenjePoVrijednostiPresjeka</name>
+    <member refid="struct_stablo_duzi_1_1_poredjenje_po_vrijednosti_presjeka_1afe872592a167fd3712dc97942326173d" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="struct_poredjenje_po_x" kind="struct"><name>PoredjenjePoX</name>
+    <member refid="struct_poredjenje_po_x_1a0d3e4c5f6af5d51082eb1f6282356587" kind="function"><name>operator()</name></member>
+    <member refid="struct_poredjenje_po_x_1a0d3e4c5f6af5d51082eb1f6282356587" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="struct_poredjenje_po_y" kind="struct"><name>PoredjenjePoY</name>
+    <member refid="struct_poredjenje_po_y_1a41aaaba3ed909b1333a8268404f7d010" kind="function"><name>operator()</name></member>
+    <member refid="struct_poredjenje_po_y_1a41aaaba3ed909b1333a8268404f7d010" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_pretraga_prostora" kind="class"><name>PretragaProstora</name>
+    <member refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kind="variable"><name>trenutnoStanje</name></member>
+    <member refid="class_pretraga_prostora_1a1b67cf84d7be3e32d4d93bdd9ae14deb" kind="variable"><name>pocetak_prozora</name></member>
+    <member refid="class_pretraga_prostora_1a5a852eb02e2b72c6a5d76c6014be973c" kind="variable"><name>start</name></member>
+    <member refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kind="variable"><name>izbor</name></member>
+    <member refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kind="variable"><name>vektorDuzi</name></member>
+    <member refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" kind="variable"><name>vektorKrajnjihTacaka</name></member>
+    <member refid="class_pretraga_prostora_1ae8c588bb3ba72d89da47ef6acb56d666" kind="variable"><name>crna</name></member>
+    <member refid="class_pretraga_prostora_1acc5253bae5ddafcd62073e8f88b21591" kind="variable"><name>crvena</name></member>
+    <member refid="class_pretraga_prostora_1a1aebe38ac90814aabf6de6eeae3930e4" kind="variable"><name>m_rtree</name></member>
+    <member refid="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" kind="variable"><name>m_stabloDuzi</name></member>
+    <member refid="class_pretraga_prostora_1a9dcae5cdc25396e7c3d7d5800e40aa21" kind="function"><name>PretragaProstora</name></member>
+    <member refid="class_pretraga_prostora_1aec70c57efb108f48afd9b6a7bb1a51d5" kind="function"><name>~PretragaProstora</name></member>
+    <member refid="class_pretraga_prostora_1a7d9629f10ac2734e46650cfe5d9e7678" kind="function"><name>mousePressEvent</name></member>
+    <member refid="class_pretraga_prostora_1aa829d10b5853ebec128e4ea5e8d9c50d" kind="function"><name>mouseMoveEvent</name></member>
+    <member refid="class_pretraga_prostora_1a824208ae98979eac421e98777269dd89" kind="function"><name>mouseReleaseEvent</name></member>
+    <member refid="class_pretraga_prostora_1a1eae55313168c7878a04791904aca24d" kind="function"><name>paintEvent</name></member>
+    <member refid="class_pretraga_prostora_1a6d7560ae44bcc2346a73b84537d3e56e" kind="function"><name>crtaj</name></member>
+    <member refid="class_pretraga_prostora_1a77c67e48ced1ac4d64ba45fd091ed743" kind="function"><name>kreirajIzFajla</name></member>
+    <member refid="class_pretraga_prostora_1a03158f7f63fe042715c1c87dd5030a9c" kind="function"><name>spasiUFajl</name></member>
+    <member refid="class_pretraga_prostora_1ad2c92c0d42c2a9c23788fcb352502e4c" kind="function"><name>ponistiOdabirDuzi</name></member>
+    <member refid="class_pretraga_prostora_1ac5fba02046d1f05264a9ea0780afa9a7" kind="slot"><name>idiUStanjeCrtanja</name></member>
+    <member refid="class_pretraga_prostora_1a939109ae80f68d1ce7091c49d70e6d55" kind="slot"><name>idiUStanjePretrage</name></member>
+    <member refid="class_pretraga_prostora_1a5dc38b32cadfc8605961514ef03f9e50" kind="slot"><name>reset</name></member>
+    <member refid="class_pretraga_prostora_1a7460b1e267492f08b9c7ae6bf44411f4" kind="slot"><name>otvoriFajl</name></member>
+    <member refid="class_pretraga_prostora_1a3aadf01559a961d959beb7f35465a2b0" kind="slot"><name>spasiFajl</name></member>
+    <member refid="class_pretraga_prostora_1ac3aa3438c49bae16877417876ada1f65" kind="slot"><name>informacije</name></member>
+    <member refid="class_pretraga_prostora_1a6a36b9e7526a9237839771b2c6c2b836" kind="slot"><name>pomoc</name></member>
+    <member refid="class_pretraga_prostora_1ab2120067abfe1b99db49c801859e2580" kind="signal"><name>jelPretraga</name></member>
+    <member refid="class_pretraga_prostora_1a2242f0fcbad64cd5a1d862eacc4b1075" kind="signal"><name>jelCrtanje</name></member>
+  </compound>
+  <compound refid="class_stablo_duzi" kind="class"><name>StabloDuzi</name>
+    <member refid="class_stablo_duzi_1a7491a76c8c7458742b421e547c901808" kind="variable"><name>m_dimenzija</name></member>
+    <member refid="class_stablo_duzi_1a3448fd842af0bcb81476beda27b24c5c" kind="variable"><name>m_korijen</name></member>
+    <member refid="class_stablo_duzi_1af80f845c408766c056fcb0a06d2f614a" kind="function"><name>sortiranjeTacaka</name></member>
+    <member refid="class_stablo_duzi_1a6af7563c5aae32a16be020310b75d20d" kind="function"><name>napraviStabloElementarnihIntervala</name></member>
+    <member refid="class_stablo_duzi_1a003b5632c9ab08ec6c9c75ee1179ad39" kind="function"><name>kreirajElementarneIntervale</name></member>
+    <member refid="class_stablo_duzi_1a55dac9c5ef52e484933fdacc5c10bd17" kind="function"><name>napraviStablo</name></member>
+    <member refid="class_stablo_duzi_1ad509ecf0f8c24959e9e55580df3ca8f3" kind="function"><name>umetniInterval</name></member>
+    <member refid="class_stablo_duzi_1ab1517b458fada9be6545aa88aa8cbdbf" kind="function"><name>napraviAsocijativnoStablo</name></member>
+    <member refid="class_stablo_duzi_1a9052b0003e90cea9f0c030e1888c38e4" kind="function"><name>prijaviAsocStabloDuzi</name></member>
+    <member refid="class_stablo_duzi_1ac7a5267e4cfb1d66135abf97a1f7cdbb" kind="function"><name>pretraziStabloDuzi</name></member>
+    <member refid="class_stablo_duzi_1a8e0dda01cb4d0ed629070b8140a91bc5" kind="function"><name>podijeliNiz</name></member>
+    <member refid="class_stablo_duzi_1a0945b20925cdeef1788b20f89eb792c9" kind="function"><name>Log2</name></member>
+    <member refid="class_stablo_duzi_1a45db21ae79af7ed0037188847d465c77" kind="function"><name>Det</name></member>
+    <member refid="class_stablo_duzi_1ae8ddb4ad40c367927b8956398e30bc5b" kind="function"><name>StabloDuzi</name></member>
+    <member refid="class_stablo_duzi_1aab221e06a3ce27fde8640ba1b5eec1f5" kind="function"><name>StabloDuzi</name></member>
+    <member refid="class_stablo_duzi_1a66092041df00427cc6c1318a9ce984b5" kind="function"><name>pretraziStabloDuzi</name></member>
+  </compound>
+  <compound refid="class_stablo_raspona" kind="class"><name>StabloRaspona</name>
+    <member refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kind="typedef"><name>pCvor</name></member>
+    <member refid="class_stablo_raspona_1a8dfdd93c7a804491682d3d6b2cba6f62" kind="variable"><name>rezultat</name></member>
+    <member refid="class_stablo_raspona_1a8dfa4806bd7e00df48d6011f1ee042fc" kind="variable"><name>m_dimenzija</name></member>
+    <member refid="class_stablo_raspona_1a13059d30f43d6ef366b84e4394a214ff" kind="variable"><name>m_korijen</name></member>
+    <member refid="class_stablo_raspona_1a3be8cdcb0d14d3acdf8f4ac3f6db5b20" kind="variable"><name>m_korijen</name></member>
+    <member refid="class_stablo_raspona_1affc61432eb2b5c8c17863cec70a3105b" kind="function"><name>sortiranjeTacaka</name></member>
+    <member refid="class_stablo_raspona_1a356ef96302d9b96574fb7e54dd3d5106" kind="function"><name>napraviStablo</name></member>
+    <member refid="class_stablo_raspona_1aa40386260f47c5eda162c1b350307bd7" kind="function"><name>podijeliNiz</name></member>
+    <member refid="class_stablo_raspona_1a9d7f933c0ee2a442d0565de4c821299a" kind="function"><name>razdvajajuciCvor</name></member>
+    <member refid="class_stablo_raspona_1addfd4e68facab764b46a065bcf1f240b" kind="function"><name>jednoDimenzionalnaPretragaRaspona</name></member>
+    <member refid="class_stablo_raspona_1a0e082ddef5dae03fa42526f164e29e6d" kind="function"><name>prijaviPodstablo</name></member>
+    <member refid="class_stablo_raspona_1a89d68a6893b7c9d201e8dbe35318f4eb" kind="function"><name>jelList</name></member>
+    <member refid="class_stablo_raspona_1a0651ed6fd62153bd8cea5023e7b81fc2" kind="function"><name>dvodimenzionalnaPretragaRaspona</name></member>
+    <member refid="class_stablo_raspona_1ac34bf52c60fdb8d7359f341f4068fffd" kind="function"><name>sortiranjeTacaka</name></member>
+    <member refid="class_stablo_raspona_1aad557d347c2b5697927c70efb0905d3f" kind="function"><name>napraviStablo</name></member>
+    <member refid="class_stablo_raspona_1aa40386260f47c5eda162c1b350307bd7" kind="function"><name>podijeliNiz</name></member>
+    <member refid="class_stablo_raspona_1ad0d9723e19f53dcf0b54edea764389a2" kind="function"><name>razdvajajuciCvor</name></member>
+    <member refid="class_stablo_raspona_1a8f62adc97e3c5d8ee97a6983d8fc032a" kind="function"><name>prijaviPodstablo</name></member>
+    <member refid="class_stablo_raspona_1a0d668368059b596aedae33c958a64d45" kind="function"><name>jelList</name></member>
+    <member refid="class_stablo_raspona_1a5c140f3b87227a60af3002fa6c72cd4d" kind="function"><name>pretragaRaspona</name></member>
+    <member refid="class_stablo_raspona_1ad4ed5d791e2b8adb6563cff8b55544c5" kind="function"><name>StabloRaspona</name></member>
+    <member refid="class_stablo_raspona_1abbdeacd2b1807bb4cdc524e651d2c80a" kind="function"><name>StabloRaspona</name></member>
+    <member refid="class_stablo_raspona_1aba64a9f4197752410506cd514bb80f53" kind="function"><name>pretragaRaspona</name></member>
+    <member refid="class_stablo_raspona_1aa4426f8f780183052feedc79721648c3" kind="function"><name>dajRezultat</name></member>
+    <member refid="class_stablo_raspona_1ad4ed5d791e2b8adb6563cff8b55544c5" kind="function"><name>StabloRaspona</name></member>
+    <member refid="class_stablo_raspona_1abbdeacd2b1807bb4cdc524e651d2c80a" kind="function"><name>StabloRaspona</name></member>
+    <member refid="class_stablo_raspona_1ab15582f7f4c015c21295b4957cfd49a7" kind="function"><name>pretragaRaspona</name></member>
+    <member refid="class_stablo_raspona_1af93cb0b9ee1ca56fe1682281df955f03" kind="function"><name>vratiRezultat</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="backup_2stablo__raspona_8cpp" kind="file"><name>stablo_raspona.cpp</name>
+  </compound>
+  <compound refid="stablo__raspona_8cpp" kind="file"><name>stablo_raspona.cpp</name>
+  </compound>
+  <compound refid="backup_2stablo__raspona_8h" kind="file"><name>stablo_raspona.h</name>
+  </compound>
+  <compound refid="stablo__raspona_8h" kind="file"><name>stablo_raspona.h</name>
+  </compound>
+  <compound refid="backup_2strukture_8h" kind="file"><name>strukture.h</name>
+  </compound>
+  <compound refid="strukture_8h" kind="file"><name>strukture.h</name>
+  </compound>
+  <compound refid="_debug_2moc__pretraga__raspona_8cpp" kind="file"><name>moc_pretraga_raspona.cpp</name>
+    <member refid="_debug_2moc__pretraga__raspona_8cpp_1a284fd37c989622d706593fbcaa035f62" kind="variable"><name>qt_meta_data_PretragaProstora</name></member>
+    <member refid="_debug_2moc__pretraga__raspona_8cpp_1a6c8d41f89f1950e8943b53833fe01d2a" kind="variable"><name>qt_meta_stringdata_PretragaProstora</name></member>
+  </compound>
+  <compound refid="_release_2moc__pretraga__raspona_8cpp" kind="file"><name>moc_pretraga_raspona.cpp</name>
+    <member refid="_release_2moc__pretraga__raspona_8cpp_1a284fd37c989622d706593fbcaa035f62" kind="variable"><name>qt_meta_data_PretragaProstora</name></member>
+    <member refid="_release_2moc__pretraga__raspona_8cpp_1a6c8d41f89f1950e8943b53833fe01d2a" kind="variable"><name>qt_meta_stringdata_PretragaProstora</name></member>
+  </compound>
+  <compound refid="qrc__resursi_8cpp" kind="file"><name>qrc_resursi.cpp</name>
+    <member refid="qrc__resursi_8cpp_1a67a985282ed24629b630f624b668842b" kind="variable"><name>qt_resource_data</name></member>
+    <member refid="qrc__resursi_8cpp_1a7931167bf9d7e883e4194a60d031e431" kind="variable"><name>qt_resource_name</name></member>
+    <member refid="qrc__resursi_8cpp_1a37a83d7da2ee18badcd100d79aac64d4" kind="variable"><name>qt_resource_struct</name></member>
+    <member refid="qrc__resursi_8cpp_1ab3bec3d1e679084be46edc41e4c91bc1" kind="function"><name>qRegisterResourceData</name></member>
+    <member refid="qrc__resursi_8cpp_1ad65f8bca8010dd1fd135a28a085c6d03" kind="function"><name>qUnregisterResourceData</name></member>
+    <member refid="qrc__resursi_8cpp_1a7b35bc57a944d036535e69a0058ba0d0" kind="function"><name>qInitResources_resursi</name></member>
+    <member refid="qrc__resursi_8cpp_1a77772f4e0b801c259a205e9b0f0d70dc" kind="function"><name>qCleanupResources_resursi</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="pretraga__raspona_8cpp" kind="file"><name>pretraga_raspona.cpp</name>
+  </compound>
+  <compound refid="pretraga__raspona_8h" kind="file"><name>pretraga_raspona.h</name>
+    <member refid="pretraga__raspona_8h_1a2cc1a627c7d1839b4492a459c6ea6a73" kind="define"><name>NEGBESKONACNO</name></member>
+    <member refid="pretraga__raspona_8h_1a8474b48b668a74c16680425865ee9658" kind="define"><name>POZBESKONACNO</name></member>
+    <member refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90" kind="enum"><name>state</name></member>
+    <member refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90a80ccf7e839fca4f0c3e059f2937d5d79" kind="enumvalue"><name>CEKANJA</name></member>
+    <member refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af189cfaa8f64bfe3679bc5ab3338d537" kind="enumvalue"><name>PRETRAGA</name></member>
+    <member refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af04dc3fd7d286e3b2f0d47d9af522b7d" kind="enumvalue"><name>CRTANJA1</name></member>
+    <member refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90afdfe620270b33d58d083a04ad9287b99" kind="enumvalue"><name>CRTANJA2</name></member>
+  </compound>
+  <compound refid="resource_8h" kind="file"><name>resource.h</name>
+    <member refid="resource_8h_1ac5f012ec0051f953175b932e80028ead" kind="define"><name>IDB_BITMAP1</name></member>
+  </compound>
+  <compound refid="stablo__duzi_8cpp" kind="file"><name>stablo_duzi.cpp</name>
+  </compound>
+  <compound refid="stablo__duzi_8h" kind="file"><name>stablo_duzi.h</name>
+    <member refid="stablo__duzi_8h_1a2cc1a627c7d1839b4492a459c6ea6a73" kind="define"><name>NEGBESKONACNO</name></member>
+    <member refid="stablo__duzi_8h_1a8474b48b668a74c16680425865ee9658" kind="define"><name>POZBESKONACNO</name></member>
+  </compound>
+  <compound refid="dir_0b457ace402ca7986e274a9663e8d868" kind="dir"><name>backup</name>
+  </compound>
+  <compound refid="dir_70fb96b6318a7b25cde10f3889ba3a36" kind="dir"><name>GeneratedFiles/Debug</name>
+  </compound>
+  <compound refid="dir_8838c8859190145fd5c0dbb93d82e03f" kind="dir"><name>GeneratedFiles</name>
+  </compound>
+  <compound refid="dir_72c244b9c1f6955be15f07f8b2d7fadd" kind="dir"><name>GeneratedFiles/Release</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_stablo_raspona_1_1_cvor" kind="struct" prot="private">
+    <compoundname>StabloRaspona::Cvor</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="struct_stablo_raspona_1_1_cvor_1aa46aa06d2d60d7506c272572080d97d4" prot="public" static="no">
+        <type>boost::shared_ptr&lt; Cvor &gt;</type>
+        <definition>typedef boost::shared_ptr&lt; Cvor &gt; StabloRaspona::Cvor::pCvor</definition>
+        <argsstring></argsstring>
+        <name>pCvor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="22" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_stablo_raspona_1_1_cvor_1aa18db5d07e9fe7ffb804ac67f429444a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+        <definition>pCvor StabloRaspona::Cvor::lijevo_dijete</definition>
+        <argsstring></argsstring>
+        <name>lijevo_dijete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="24" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_raspona_1_1_cvor_1a7971c0f543f1c293d106b36026ff8c7a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+        <definition>pCvor StabloRaspona::Cvor::desno_dijete</definition>
+        <argsstring></argsstring>
+        <name>desno_dijete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="25" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_raspona_1_1_cvor_1a7b76d86a0f3232d0d5a374179ddd2f86" prot="public" static="no" mutable="no">
+        <type><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref></type>
+        <definition>pCvor StabloRaspona::Cvor::p_korijen_sljedece_dim</definition>
+        <argsstring></argsstring>
+        <name>p_korijen_sljedece_dim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="26" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_raspona_1_1_cvor_1a7b7ecc296f7ace4e2ccdd7bcb06892dd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref></type>
+        <definition>KrajnjaTackaDuzi StabloRaspona::Cvor::vrijednost</definition>
+        <argsstring></argsstring>
+        <name>vrijednost</name>
+        <briefdescription>
+<para>Pokazatelj na cvor koji je korijen sljedece dimenzije. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/stablo_raspona.h" line="28" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_raspona_1_1_cvor_1a023535f5762d46bbbb4157d7d628065d" prot="public" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloRaspona::Cvor::lijevo_dijete</definition>
+        <argsstring></argsstring>
+        <name>lijevo_dijete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="29" column="1" bodyfile="D:/Samir/app/stablo_raspona.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_raspona_1_1_cvor_1a890fa63e1df79bc9d75c0f88ec84b331" prot="public" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloRaspona::Cvor::desno_dijete</definition>
+        <argsstring></argsstring>
+        <name>desno_dijete</name>
+        <briefdescription>
+<para>Pokazatelj na lijevo dijete cvora. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="30" column="1" bodyfile="D:/Samir/app/stablo_raspona.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_raspona_1_1_cvor_1a5dfd844264264ab05ca44c4bdef0e441" prot="public" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloRaspona::Cvor::p_korijen_sljedece_dim</definition>
+        <argsstring></argsstring>
+        <name>p_korijen_sljedece_dim</name>
+        <briefdescription>
+<para>Pokazatelj na desno dijete cvora. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_raspona.h" line="31" column="1" bodyfile="D:/Samir/app/stablo_raspona.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>StabloRaspona::Cvor</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>vrijednost</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>KrajnjaTackaDuzi</label>
+        <link refid="struct_krajnja_tacka_duzi"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Samir/app/backup/stablo_raspona.h" line="20" column="1" bodyfile="D:/Samir/app/backup/stablo_raspona.h" bodystart="19" bodyend="29"/>
+    <listofallmembers>
+      <member refid="struct_stablo_raspona_1_1_cvor_1a7971c0f543f1c293d106b36026ff8c7a" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>desno_dijete</name></member>
+      <member refid="struct_stablo_raspona_1_1_cvor_1a890fa63e1df79bc9d75c0f88ec84b331" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>desno_dijete</name></member>
+      <member refid="struct_stablo_raspona_1_1_cvor_1aa18db5d07e9fe7ffb804ac67f429444a" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>lijevo_dijete</name></member>
+      <member refid="struct_stablo_raspona_1_1_cvor_1a023535f5762d46bbbb4157d7d628065d" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>lijevo_dijete</name></member>
+      <member refid="struct_stablo_raspona_1_1_cvor_1a7b76d86a0f3232d0d5a374179ddd2f86" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>p_korijen_sljedece_dim</name></member>
+      <member refid="struct_stablo_raspona_1_1_cvor_1a5dfd844264264ab05ca44c4bdef0e441" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>p_korijen_sljedece_dim</name></member>
+      <member refid="struct_stablo_raspona_1_1_cvor_1aa46aa06d2d60d7506c272572080d97d4" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>pCvor</name></member>
+      <member refid="struct_stablo_raspona_1_1_cvor_1a7b7ecc296f7ace4e2ccdd7bcb06892dd" prot="public" virt="non-virtual"><scope>StabloRaspona::Cvor</scope><name>vrijednost</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

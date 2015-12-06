@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/slike">
+        <file alias="spasi">images/disk.png</file>
+        <file alias="otvori">images/folder_page.png</file>
+        <file alias="pomoc">images/help.png</file>
+        <file alias="info">images/information.png</file>
+        <file alias="izaberi">images/map_go.png</file>
+        <file alias="novo">images/page_white.png</file>
+        <file alias="nacrtaj">images/pencil.png</file>
+        <file alias="izlaz">images/exit.png</file>
+    </qresource>
+</RCC>

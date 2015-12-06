@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_0b457ace402ca7986e274a9663e8d868" kind="dir">
+    <compoundname>backup</compoundname>
+    <innerfile refid="backup_2stablo__raspona_8cpp">stablo_raspona.cpp</innerfile>
+    <innerfile refid="backup_2stablo__raspona_8h">stablo_raspona.h</innerfile>
+    <innerfile refid="backup_2strukture_8h">strukture.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Samir/app/backup/"/>
+  </compounddef>
+</doxygen>

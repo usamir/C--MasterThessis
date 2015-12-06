@@ -1,0 +1,99 @@
+.TH "StabloRaspona" 3 "Sat Aug 31 2013" "Version 1" "Magistarski aplikacija" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+StabloRaspona \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <stablo_raspona\&.h>\fP
+.SS "Public Types"
+
+.in +1c
+.ti -1c
+.RI "typedef boost::shared_ptr< Cvor > \fBpCvor\fP"
+.br
+.in -1c
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStabloRaspona\fP ()"
+.br
+.ti -1c
+.RI "\fBStabloRaspona\fP (QVector< \fBKrajnjaTackaDuzi\fP > tacke, int dimenzija)"
+.br
+.ti -1c
+.RI "void \fBpretragaRaspona\fP (int x1, int x2, int y1, int y2)"
+.br
+.ti -1c
+.RI "QVector< \fBKrajnjaTackaDuzi\fP > \fBdajRezultat\fP ()"
+.br
+.ti -1c
+.RI "\fBStabloRaspona\fP ()"
+.br
+.ti -1c
+.RI "\fBStabloRaspona\fP (QVector< \fBKrajnjaTackaDuzi\fP > tacke, int dimenzija)"
+.br
+.ti -1c
+.RI "void \fBpretragaRaspona\fP (\fBKrajnjaTackaDuzi\fP pocetak, \fBKrajnjaTackaDuzi\fP kraj, int dim)"
+.br
+.ti -1c
+.RI "QVector< \fBKrajnjaTackaDuzi\fP > \fBvratiRezultat\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 16 of file stablo_raspona\&.h\&.
+.SH "Member Typedef Documentation"
+.PP 
+.SS "typedef boost::shared_ptr<Cvor> \fBStabloRaspona::pCvor\fP"
+
+.PP
+Definition at line 32 of file stablo_raspona\&.h\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "StabloRaspona::StabloRaspona ()"
+
+.PP
+Definition at line 16 of file stablo_raspona\&.cpp\&.
+.SS "StabloRaspona::StabloRaspona (QVector< \fBKrajnjaTackaDuzi\fP >tacke, intdimenzija)"
+@ brief Konstruktor Stabla Raspona
+.PP
+\fBParameters:\fP
+.RS 4
+\fItacke\fP vektor kranjih taèaka duži koje æemo pretraziti 
+.br
+\fIdimenzija\fP u kojoj æemo stablo raspona napraviti 
+.RE
+.PP
+
+.PP
+Definition at line 10 of file stablo_raspona\&.cpp\&.
+.SS "StabloRaspona::StabloRaspona ()"
+
+.SS "StabloRaspona::StabloRaspona (QVector< \fBKrajnjaTackaDuzi\fP >tacke, intdimenzija)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "QVector<\fBKrajnjaTackaDuzi\fP> StabloRaspona::dajRezultat ()\fC [inline]\fP"
+
+.PP
+Definition at line 51 of file stablo_raspona\&.h\&.
+.SS "void StabloRaspona::pretragaRaspona (intx1, intx2, inty1, inty2)"
+
+.PP
+Definition at line 131 of file stablo_raspona\&.cpp\&.
+.SS "void StabloRaspona::pretragaRaspona (\fBKrajnjaTackaDuzi\fPpocetak, \fBKrajnjaTackaDuzi\fPkraj, intdim)"
+
+.PP
+Definition at line 95 of file stablo_raspona\&.cpp\&.
+.SS "QVector<\fBKrajnjaTackaDuzi\fP> StabloRaspona::vratiRezultat ()\fC [inline]\fP"
+
+.PP
+Definition at line 138 of file stablo_raspona\&.h\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Magistarski aplikacija from the source code\&.

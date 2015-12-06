@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_stablo_duzi_1_1_cvor" kind="struct" prot="private">
+    <compoundname>StabloDuzi::Cvor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_cvor_1a1b47ca288d206815b063cb13c8bf5908" prot="public" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloDuzi::Cvor::lijevo_dijete</definition>
+        <argsstring></argsstring>
+        <name>lijevo_dijete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="54" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_cvor_1ade64c64ad32eb229615354ba45949aa7" prot="public" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloDuzi::Cvor::desno_dijete</definition>
+        <argsstring></argsstring>
+        <name>desno_dijete</name>
+        <briefdescription>
+<para>Pokazivac na lijevo dijete cvora u stablu duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="55" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_cvor_1ad1c5f456f4dd4e50e36ee588a2bc2198" prot="public" static="no" mutable="no">
+        <type>QVector&lt; AsocijativniCvor &gt;</type>
+        <definition>QVector&lt;AsocijativniCvor&gt; StabloDuzi::Cvor::m_AsocijativnaStruktura</definition>
+        <argsstring></argsstring>
+        <name>m_AsocijativnaStruktura</name>
+        <briefdescription>
+<para>Pokazivac na desno dijete cvora u stablu duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="56" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_cvor_1ab76df6b1a6a6ed93a1a50e2b84069d09" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_elementarni_interval" kindref="compound">ElementarniInterval</ref></type>
+        <definition>ElementarniInterval StabloDuzi::Cvor::m_elementarni_interval</definition>
+        <argsstring></argsstring>
+        <name>m_elementarni_interval</name>
+        <briefdescription>
+<para>Vektor asocijativnih cvorova. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="57" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_cvor_1a5446dc699c1148c3785bc0ac86c37730" prot="public" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloDuzi::Cvor::p_korijen_sljedece_dim</definition>
+        <argsstring></argsstring>
+        <name>p_korijen_sljedece_dim</name>
+        <briefdescription>
+<para>Varijabla za cuvanje elementarnih intervala. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="58" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>StabloDuzi::Cvor</label>
+        <childnode refid="8" relation="usage">
+          <edgelabel>m_elementarni_interval</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ElementarniInterval</label>
+        <link refid="struct_elementarni_interval"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Samir/app/stablo_duzi.h" line="50" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="49" bodyend="59"/>
+    <listofallmembers>
+      <member refid="struct_stablo_duzi_1_1_cvor_1ade64c64ad32eb229615354ba45949aa7" prot="public" virt="non-virtual"><scope>StabloDuzi::Cvor</scope><name>desno_dijete</name></member>
+      <member refid="struct_stablo_duzi_1_1_cvor_1a1b47ca288d206815b063cb13c8bf5908" prot="public" virt="non-virtual"><scope>StabloDuzi::Cvor</scope><name>lijevo_dijete</name></member>
+      <member refid="struct_stablo_duzi_1_1_cvor_1ad1c5f456f4dd4e50e36ee588a2bc2198" prot="public" virt="non-virtual"><scope>StabloDuzi::Cvor</scope><name>m_AsocijativnaStruktura</name></member>
+      <member refid="struct_stablo_duzi_1_1_cvor_1ab76df6b1a6a6ed93a1a50e2b84069d09" prot="public" virt="non-virtual"><scope>StabloDuzi::Cvor</scope><name>m_elementarni_interval</name></member>
+      <member refid="struct_stablo_duzi_1_1_cvor_1a5446dc699c1148c3785bc0ac86c37730" prot="public" virt="non-virtual"><scope>StabloDuzi::Cvor</scope><name>p_korijen_sljedece_dim</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

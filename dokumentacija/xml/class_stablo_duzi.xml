@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="class_stablo_duzi" kind="class" prot="public">
+    <compoundname>StabloDuzi</compoundname>
+    <includes refid="stablo__duzi_8h" local="no">stablo_duzi.h</includes>
+    <innerclass refid="struct_stablo_duzi_1_1_asocijativni_cvor" prot="private">StabloDuzi::AsocijativniCvor</innerclass>
+    <innerclass refid="struct_stablo_duzi_1_1_cvor" prot="private">StabloDuzi::Cvor</innerclass>
+    <innerclass refid="struct_stablo_duzi_1_1_poredjenje_po_vrijednosti_presjeka" prot="private">StabloDuzi::PoredjenjePoVrijednostiPresjeka</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_stablo_duzi_1a7491a76c8c7458742b421e547c901808" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StabloDuzi::m_dimenzija</definition>
+        <argsstring></argsstring>
+        <name>m_dimenzija</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="78" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_stablo_duzi_1a3448fd842af0bcb81476beda27b24c5c" prot="private" static="no" mutable="no">
+        <type>Cvor::pCvor</type>
+        <definition>Cvor::pCvor StabloDuzi::m_korijen</definition>
+        <argsstring></argsstring>
+        <name>m_korijen</name>
+        <briefdescription>
+<para>Dimenzija stabla duzi, tj, dimenzija prostora od kojeg pravimo stablo duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="79" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_stablo_duzi_1af80f845c408766c056fcb0a06d2f614a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloDuzi::sortiranjeTacaka</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; &amp;tacke, int dim)</argsstring>
+        <name>sortiranjeTacaka</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt; &amp;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+<para>Pokazivac na korijen stabla duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="88" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="65" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a6af7563c5aae32a16be020310b75d20d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Cvor::pCvor</type>
+        <definition>StabloDuzi::Cvor::pCvor StabloDuzi::napraviStabloElementarnihIntervala</definition>
+        <argsstring>(QVector&lt; ElementarniInterval &gt; vekt_elem_intervala)</argsstring>
+        <name>napraviStabloElementarnihIntervala</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_elementarni_interval" kindref="compound">ElementarniInterval</ref> &gt;</type>
+          <declname>vekt_elem_intervala</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>U slucaju lista da kreiramo list binarnog stabla </para>        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="97" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="100" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a003b5632c9ab08ec6c9c75ee1179ad39" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVector&lt; <ref refid="struct_elementarni_interval" kindref="compound">ElementarniInterval</ref> &gt;</type>
+        <definition>QVector&lt; ElementarniInterval &gt; StabloDuzi::kreirajElementarneIntervale</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dim)</argsstring>
+        <name>kreirajElementarneIntervale</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="107" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="29" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a55dac9c5ef52e484933fdacc5c10bd17" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Cvor::pCvor</type>
+        <definition>StabloDuzi::Cvor::pCvor StabloDuzi::napraviStablo</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, QVector&lt; Duz &gt; vekDuzi, int dim)</argsstring>
+        <name>napraviStablo</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_duz" kindref="compound">Duz</ref> &gt;</type>
+          <declname>vekDuzi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="120" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="10" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1ad509ecf0f8c24959e9e55580df3ca8f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Cvor::pCvor</type>
+        <definition>StabloDuzi::Cvor::pCvor StabloDuzi::umetniInterval</definition>
+        <argsstring>(Cvor::pCvor cvor, Duz d, int dim)</argsstring>
+        <name>umetniInterval</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>cvor</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_duz" kindref="compound">Duz</ref></type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="131" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="123" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1ab1517b458fada9be6545aa88aa8cbdbf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Cvor::pCvor</type>
+        <definition>StabloDuzi::Cvor::pCvor StabloDuzi::napraviAsocijativnoStablo</definition>
+        <argsstring>(Cvor::pCvor cvor, QVector&lt; Duz &gt; vekDuzi, int dim)</argsstring>
+        <name>napraviAsocijativnoStablo</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>cvor</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_duz" kindref="compound">Duz</ref> &gt;</type>
+          <declname>vekDuzi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>na kojoj razini su listovi</para><para>broj listova na toj razini </para>        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="140" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="204" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a9052b0003e90cea9f0c030e1888c38e4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloDuzi::prijaviAsocStabloDuzi</definition>
+        <argsstring>(Cvor::pCvor korijen, int start, int ispitna_vrijednost, int pocetak, int kraj, QVector&lt; Duz &gt; &amp;vekDuzi, int dimenzija)</argsstring>
+        <name>prijaviAsocStabloDuzi</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>korijen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ispitna_vrijednost</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pocetak</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kraj</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_duz" kindref="compound">Duz</ref> &gt; &amp;</type>
+          <declname>vekDuzi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="159" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="324" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1ac7a5267e4cfb1d66135abf97a1f7cdbb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloDuzi::pretraziStabloDuzi</definition>
+        <argsstring>(Cvor::pCvor korijen, int ispitna_vrijednost, int pocetak, int kraj, QVector&lt; Duz &gt; &amp;vekDuzi, int dimenzija)</argsstring>
+        <name>pretraziStabloDuzi</name>
+        <param>
+          <type>Cvor::pCvor</type>
+          <declname>korijen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ispitna_vrijednost</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pocetak</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kraj</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_duz" kindref="compound">Duz</ref> &gt; &amp;</type>
+          <declname>vekDuzi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="176" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="407" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a8e0dda01cb4d0ed629070b8140a91bc5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename NekiTip</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void StabloDuzi::podijeliNiz</definition>
+        <argsstring>(QVector&lt; NekiTip &gt; tacke, QVector&lt; NekiTip &gt; &amp;lijeve_tacke, QVector&lt; NekiTip &gt; &amp;desne_tacke)</argsstring>
+        <name>podijeliNiz</name>
+        <param>
+          <type>QVector&lt; NekiTip &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>QVector&lt; NekiTip &gt; &amp;</type>
+          <declname>lijeve_tacke</declname>
+        </param>
+        <param>
+          <type>QVector&lt; NekiTip &gt; &amp;</type>
+          <declname>desne_tacke</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="188" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="78" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a0945b20925cdeef1788b20f89eb792c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double StabloDuzi::Log2</definition>
+        <argsstring>(double n)</argsstring>
+        <name>Log2</name>
+        <param>
+          <type>double</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="195" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a45db21ae79af7ed0037188847d465c77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int StabloDuzi::Det</definition>
+        <argsstring>(int px, int py, int qx, int qy, int rx, int ry)</argsstring>
+        <name>Det</name>
+        <param>
+          <type>int</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>py</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>qx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>qy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ry</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="209" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="209" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_stablo_duzi_1ae8ddb4ad40c367927b8956398e30bc5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>StabloDuzi::StabloDuzi</definition>
+        <argsstring>(QVector&lt; KrajnjaTackaDuzi &gt; tacke, int dimenzija, QVector&lt; Duz &gt; vekDuzi)</argsstring>
+        <name>StabloDuzi</name>
+        <param>
+          <type>QVector&lt; <ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref> &gt;</type>
+          <declname>tacke</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_duz" kindref="compound">Duz</ref> &gt;</type>
+          <declname>vekDuzi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="221" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1aab221e06a3ce27fde8640ba1b5eec1f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>StabloDuzi::StabloDuzi</definition>
+        <argsstring>()</argsstring>
+        <name>StabloDuzi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="226" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="226" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_stablo_duzi_1a66092041df00427cc6c1318a9ce984b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloDuzi::pretraziStabloDuzi</definition>
+        <argsstring>(int ispitna_vrijednost, int pocetak, int kraj, QVector&lt; Duz &gt; &amp;vekDuzi, int dimenzija)</argsstring>
+        <name>pretraziStabloDuzi</name>
+        <param>
+          <type>int</type>
+          <declname>ispitna_vrijednost</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pocetak</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kraj</declname>
+        </param>
+        <param>
+          <type>QVector&lt; <ref refid="struct_duz" kindref="compound">Duz</ref> &gt; &amp;</type>
+          <declname>vekDuzi</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimenzija</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="241" column="1" bodyfile="D:/Samir/app/stablo_duzi.cpp" bodystart="429" bodyend="442"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Samir/app/stablo_duzi.h" line="19" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="18" bodyend="244"/>
+    <listofallmembers>
+      <member refid="class_stablo_duzi_1a45db21ae79af7ed0037188847d465c77" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>Det</name></member>
+      <member refid="class_stablo_duzi_1a003b5632c9ab08ec6c9c75ee1179ad39" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>kreirajElementarneIntervale</name></member>
+      <member refid="class_stablo_duzi_1a0945b20925cdeef1788b20f89eb792c9" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>Log2</name></member>
+      <member refid="class_stablo_duzi_1a7491a76c8c7458742b421e547c901808" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>m_dimenzija</name></member>
+      <member refid="class_stablo_duzi_1a3448fd842af0bcb81476beda27b24c5c" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>m_korijen</name></member>
+      <member refid="class_stablo_duzi_1ab1517b458fada9be6545aa88aa8cbdbf" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>napraviAsocijativnoStablo</name></member>
+      <member refid="class_stablo_duzi_1a55dac9c5ef52e484933fdacc5c10bd17" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>napraviStablo</name></member>
+      <member refid="class_stablo_duzi_1a6af7563c5aae32a16be020310b75d20d" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>napraviStabloElementarnihIntervala</name></member>
+      <member refid="class_stablo_duzi_1a8e0dda01cb4d0ed629070b8140a91bc5" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>podijeliNiz</name></member>
+      <member refid="class_stablo_duzi_1ac7a5267e4cfb1d66135abf97a1f7cdbb" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>pretraziStabloDuzi</name></member>
+      <member refid="class_stablo_duzi_1a66092041df00427cc6c1318a9ce984b5" prot="public" virt="non-virtual"><scope>StabloDuzi</scope><name>pretraziStabloDuzi</name></member>
+      <member refid="class_stablo_duzi_1a9052b0003e90cea9f0c030e1888c38e4" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>prijaviAsocStabloDuzi</name></member>
+      <member refid="class_stablo_duzi_1af80f845c408766c056fcb0a06d2f614a" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>sortiranjeTacaka</name></member>
+      <member refid="class_stablo_duzi_1ae8ddb4ad40c367927b8956398e30bc5b" prot="public" virt="non-virtual"><scope>StabloDuzi</scope><name>StabloDuzi</name></member>
+      <member refid="class_stablo_duzi_1aab221e06a3ce27fde8640ba1b5eec1f5" prot="public" virt="non-virtual"><scope>StabloDuzi</scope><name>StabloDuzi</name></member>
+      <member refid="class_stablo_duzi_1ad509ecf0f8c24959e9e55580df3ca8f3" prot="private" virt="non-virtual"><scope>StabloDuzi</scope><name>umetniInterval</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

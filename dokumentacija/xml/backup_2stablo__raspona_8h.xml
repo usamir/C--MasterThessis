@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="backup_2stablo__raspona_8h" kind="file">
+    <compoundname>stablo_raspona.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">boost/foreach.hpp</includes>
+    <includes local="no">boost/shared_ptr.hpp</includes>
+    <includes refid="backup_2strukture_8h" local="yes">strukture.h</includes>
+    <includedby refid="backup_2stablo__raspona_8cpp" local="yes">backup/stablo_raspona.cpp</includedby>
+    <incdepgraph>
+      <node id="23">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="22">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="25">
+        <label>QPoint</label>
+      </node>
+      <node id="19">
+        <label>backup/stablo_raspona.h</label>
+        <link refid="backup/stablo_raspona.h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>vector</label>
+      </node>
+      <node id="24">
+        <label>strukture.h</label>
+        <link refid="backup_2strukture_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>algorithm</label>
+      </node>
+      <node id="26">
+        <label>QVector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="28">
+        <label>backup/stablo_raspona.cpp</label>
+        <link refid="backup_2stablo__raspona_8cpp"/>
+      </node>
+      <node id="27">
+        <label>backup/stablo_raspona.h</label>
+        <link refid="backup/stablo_raspona.h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_stablo_raspona" prot="public">StabloRaspona</innerclass>
+    <innerclass refid="struct_stablo_raspona_1_1_cvor" prot="private">StabloRaspona::Cvor</innerclass>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STABLORASPONA_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>STABLORASPONA_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/foreach.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/shared_ptr.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="backup_2strukture_8h" kindref="compound">strukture.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Klasa<sp/>stablo<sp/>raspona,<sp/>napravljena<sp/>prema<sp/>algoritmu<sp/>opisanom<sp/>u<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>magistarskom<sp/>radu,<sp/>pomaže<sp/>u<sp/>pretrazi<sp/>prozora<sp/>pretrage,<sp/>ispituje<sp/>da<sp/>li<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>krajnje<sp/>taèke<sp/>duži<sp/>leže<sp/>u<sp/>prozoru<sp/>pretrage<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_stablo_raspona" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_stablo_raspona" kindref="compound">StabloRaspona</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Cvor</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;Cvor&gt;<sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>lijevo_dijete;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>desno_dijete;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>p_korijen_sljedece_dim;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref><sp/>vrijednost;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32" refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;Cvor&gt;<sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;KrajnjaTackaDuzi&gt;<sp/>rezultat;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_dimenzija;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>m_korijen;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>sortiranjeTacaka(QVector&lt;KrajnjaTackaDuzi&gt;<sp/>tacke,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimenzija);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>napraviStablo(QVector&lt;KrajnjaTackaDuzi&gt;<sp/>tacke,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimenzija);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>podijeliNiz(QVector&lt;KrajnjaTackaDuzi&gt;<sp/>tacke,<sp/>QVector&lt;KrajnjaTackaDuzi&gt;&amp;<sp/>lijeve_tacke,<sp/>QVector&lt;KrajnjaTackaDuzi&gt;&amp;<sp/>desne_tacke);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>razdvajajuciCvor(<ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>korijen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pocetak,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>kraj,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimenzija);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>jednoDimenzionalnaPretragaRaspona(<ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>korjen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x2);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>prijaviPodstablo(<ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>cvor);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>jelList(<ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>cvor);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dvodimenzionalnaPretragaRaspona(<ref refid="class_stablo_raspona_1ab8a758e341c6a09c482bd3802c3eb6e8" kindref="member">pCvor</ref><sp/>korjen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y2);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona" kindref="compound">StabloRaspona</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona" kindref="compound">StabloRaspona</ref>(QVector&lt;KrajnjaTackaDuzi&gt;<sp/>tacke,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimenzija);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>pretragaRaspona(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y2);</highlight></codeline>
+<codeline lineno="51" refid="class_stablo_raspona_1aa4426f8f780183052feedc79721648c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QVector&lt;KrajnjaTackaDuzi&gt;<sp/><ref refid="class_stablo_raspona_1aa4426f8f780183052feedc79721648c3" kindref="member">dajRezultat</ref>(){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rezultat;<sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//STABLORASPONA_H</highlight></codeline>
+    </programlisting>
+    <location file="D:/Samir/app/backup/stablo_raspona.h"/>
+  </compounddef>
+</doxygen>

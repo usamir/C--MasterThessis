@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_krajnja_tacka_duzi" kind="struct" prot="public">
+    <compoundname>KrajnjaTackaDuzi</compoundname>
+    <includes refid="backup_2strukture_8h" local="no">strukture.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_krajnja_tacka_duzi_1a55c60f0a683384f9ed4ec775f94b7ef9" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint KrajnjaTackaDuzi::m_koordinata</definition>
+        <argsstring></argsstring>
+        <name>m_koordinata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="83" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_krajnja_tacka_duzi_1a5a2902394ae656aeb3f3b9bedb2050ac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int KrajnjaTackaDuzi::m_idDuzi</definition>
+        <argsstring></argsstring>
+        <name>m_idDuzi</name>
+        <briefdescription>
+<para>Varijabla u kojoj cuvamo koordinate tacke, to jeste samu tacku, koja je tipa QPoint. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="84" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a8742c9111c3d47d4edf758d7a986b12b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int KrajnjaTackaDuzi::vratiIdDuzi</definition>
+        <argsstring>()</argsstring>
+        <name>vratiIdDuzi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="88" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="88" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a73f22332c57426edefcf872f97954851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int KrajnjaTackaDuzi::vratiKoordinatu</definition>
+        <argsstring>(int d)</argsstring>
+        <name>vratiKoordinatu</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="91" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="91" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KrajnjaTackaDuzi::postaviKoordinatu</definition>
+        <argsstring>(QPoint koordinata)</argsstring>
+        <name>postaviKoordinatu</name>
+        <param>
+          <type>QPoint</type>
+          <declname>koordinata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="106" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="106" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KrajnjaTackaDuzi::postaviIdDuzi</definition>
+        <argsstring>(int idDuzi)</argsstring>
+        <name>postaviIdDuzi</name>
+        <param>
+          <type>int</type>
+          <declname>idDuzi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="109" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="109" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a8742c9111c3d47d4edf758d7a986b12b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int KrajnjaTackaDuzi::vratiIdDuzi</definition>
+        <argsstring>()</argsstring>
+        <name>vratiIdDuzi</name>
+        <briefdescription>
+<para>varijabla u kojoj cuvamo informaciji o identifikaciji duzi </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="89" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="89" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a73f22332c57426edefcf872f97954851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int KrajnjaTackaDuzi::vratiKoordinatu</definition>
+        <argsstring>(int d)</argsstring>
+        <name>vratiKoordinatu</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="92" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="92" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KrajnjaTackaDuzi::postaviKoordinatu</definition>
+        <argsstring>(QPoint koordinata)</argsstring>
+        <name>postaviKoordinatu</name>
+        <param>
+          <type>QPoint</type>
+          <declname>koordinata</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="107" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="107" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KrajnjaTackaDuzi::postaviIdDuzi</definition>
+        <argsstring>(int idDuzi)</argsstring>
+        <name>postaviIdDuzi</name>
+        <param>
+          <type>int</type>
+          <declname>idDuzi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="110" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="110" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Samir/app/backup/strukture.h" line="80" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="79" bodyend="112"/>
+    <listofallmembers>
+      <member refid="struct_krajnja_tacka_duzi_1a5a2902394ae656aeb3f3b9bedb2050ac" prot="private" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>m_idDuzi</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a55c60f0a683384f9ed4ec775f94b7ef9" prot="private" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>m_koordinata</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>postaviIdDuzi</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>postaviIdDuzi</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>postaviKoordinatu</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>postaviKoordinatu</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a8742c9111c3d47d4edf758d7a986b12b" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>vratiIdDuzi</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a8742c9111c3d47d4edf758d7a986b12b" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>vratiIdDuzi</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a73f22332c57426edefcf872f97954851" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>vratiKoordinatu</name></member>
+      <member refid="struct_krajnja_tacka_duzi_1a73f22332c57426edefcf872f97954851" prot="public" virt="non-virtual"><scope>KrajnjaTackaDuzi</scope><name>vratiKoordinatu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

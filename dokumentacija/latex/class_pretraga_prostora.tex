@@ -1,0 +1,332 @@
+\hypertarget{class_pretraga_prostora}{\section{Pretraga\-Prostora Class Reference}
+\label{class_pretraga_prostora}\index{Pretraga\-Prostora@{Pretraga\-Prostora}}
+}
+
+
+{\ttfamily \#include $<$pretraga\-\_\-raspona.\-h$>$}
+
+Inheritance diagram for Pretraga\-Prostora\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_pretraga_prostora}
+\end{center}
+\end{figure}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_pretraga_prostora_ab2120067abfe1b99db49c801859e2580}{jel\-Pretraga} (bool b)
+\item 
+void \hyperlink{class_pretraga_prostora_a2242f0fcbad64cd5a1d862eacc4b1075}{jel\-Crtanje} (bool b)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_pretraga_prostora_a9dcae5cdc25396e7c3d7d5800e40aa21}{Pretraga\-Prostora} (Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Instanca klase stablo duzi. \end{DoxyCompactList}\item 
+\hyperlink{class_pretraga_prostora_aec70c57efb108f48afd9b6a7bb1a51d5}{$\sim$\-Pretraga\-Prostora} ()
+\item 
+void \hyperlink{class_pretraga_prostora_a7d9629f10ac2734e46650cfe5d9e7678}{mouse\-Press\-Event} (Q\-Mouse\-Event $\ast$dogadjaj)
+\item 
+void \hyperlink{class_pretraga_prostora_aa829d10b5853ebec128e4ea5e8d9c50d}{mouse\-Move\-Event} (Q\-Mouse\-Event $\ast$dogadjaj)
+\item 
+void \hyperlink{class_pretraga_prostora_a824208ae98979eac421e98777269dd89}{mouse\-Release\-Event} (Q\-Mouse\-Event $\ast$dogadjaj)
+\item 
+void \hyperlink{class_pretraga_prostora_a1eae55313168c7878a04791904aca24d}{paint\-Event} (Q\-Paint\-Event $\ast$dogadjaj)
+\item 
+void \hyperlink{class_pretraga_prostora_a6d7560ae44bcc2346a73b84537d3e56e}{crtaj} (Q\-Painter $\ast$painter)
+\item 
+bool \hyperlink{class_pretraga_prostora_a77c67e48ced1ac4d64ba45fd091ed743}{kreiraj\-Iz\-Fajla} (Q\-String ime\-\_\-fajla)
+\item 
+bool \hyperlink{class_pretraga_prostora_a03158f7f63fe042715c1c87dd5030a9c}{spasi\-U\-Fajl} (Q\-String ime\-\_\-fajla)
+\item 
+void \hyperlink{class_pretraga_prostora_ad2c92c0d42c2a9c23788fcb352502e4c}{ponisti\-Odabir\-Duzi} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{pretraga__raspona_8h_adc6e5733fc3c22f0a7b2914188c49c90}{state} \hyperlink{class_pretraga_prostora_ad93cf86ec7ba91d96f16c69ede98b180}{trenutno\-Stanje}
+\item 
+Q\-Point \hyperlink{class_pretraga_prostora_a1b67cf84d7be3e32d4d93bdd9ae14deb}{pocetak\-\_\-prozora}
+\begin{DoxyCompactList}\small\item\em Trenutno stanje aplikacije. \end{DoxyCompactList}\item 
+Q\-Point \hyperlink{class_pretraga_prostora_a5a852eb02e2b72c6a5d76c6014be973c}{start}
+\begin{DoxyCompactList}\small\item\em Pocetna taèka prozora pretrage. \end{DoxyCompactList}\item 
+Q\-Rubber\-Band $\ast$ \hyperlink{class_pretraga_prostora_a7ea1f4731d1530b881c09dc998c0b7eb}{izbor}
+\begin{DoxyCompactList}\small\item\em Polazna taèka duži u fazi kada ih kreiramo. \end{DoxyCompactList}\item 
+Q\-Vector$<$ \hyperlink{struct_duz}{Duz} $>$ \hyperlink{class_pretraga_prostora_a71304ed78eb54bb4362e3f19b777b420}{vektor\-Duzi}
+\begin{DoxyCompactList}\small\item\em Izabrani raspon. \end{DoxyCompactList}\item 
+Q\-Vector$<$ \hyperlink{struct_krajnja_tacka_duzi}{Krajnja\-Tacka\-Duzi} $>$ \hyperlink{class_pretraga_prostora_a0757daf831ce7c8deae521e2bd56da3f}{vektor\-Krajnjih\-Tacaka}
+\begin{DoxyCompactList}\small\item\em Vektor sa nacrtanim dužima. \end{DoxyCompactList}\item 
+Q\-Pen \hyperlink{class_pretraga_prostora_ae8c588bb3ba72d89da47ef6acb56d666}{crna}
+\begin{DoxyCompactList}\small\item\em Vektor krajnjih taèaka duži \end{DoxyCompactList}\item 
+Q\-Pen \hyperlink{class_pretraga_prostora_acc5253bae5ddafcd62073e8f88b21591}{crvena}
+\begin{DoxyCompactList}\small\item\em Boja za oznacenu duzu. \end{DoxyCompactList}\item 
+\hyperlink{class_stablo_raspona}{Stablo\-Raspona} \hyperlink{class_pretraga_prostora_a1aebe38ac90814aabf6de6eeae3930e4}{m\-\_\-rtree}
+\begin{DoxyCompactList}\small\item\em Boja za neoznacenu duz. \end{DoxyCompactList}\item 
+\hyperlink{class_stablo_duzi}{Stablo\-Duzi} \hyperlink{class_pretraga_prostora_a64f3f45de751ae06c41bb0f24d0d4850}{m\-\_\-stablo\-Duzi}
+\begin{DoxyCompactList}\small\item\em Instanca klase stablo raspona. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 42 of file pretraga\-\_\-raspona.\-h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_pretraga_prostora_a9dcae5cdc25396e7c3d7d5800e40aa21}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!Pretraga\-Prostora@{Pretraga\-Prostora}}
+\index{Pretraga\-Prostora@{Pretraga\-Prostora}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{Pretraga\-Prostora}]{\setlength{\rightskip}{0pt plus 5cm}Pretraga\-Prostora\-::\-Pretraga\-Prostora (
+\begin{DoxyParamCaption}
+\item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{class_pretraga_prostora_a9dcae5cdc25396e7c3d7d5800e40aa21}
+
+
+Instanca klase stablo duzi. 
+
+
+
+Definition at line 4 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_aec70c57efb108f48afd9b6a7bb1a51d5}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!$\sim$\-Pretraga\-Prostora@{$\sim$\-Pretraga\-Prostora}}
+\index{$\sim$\-Pretraga\-Prostora@{$\sim$\-Pretraga\-Prostora}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{$\sim$\-Pretraga\-Prostora}]{\setlength{\rightskip}{0pt plus 5cm}Pretraga\-Prostora\-::$\sim$\-Pretraga\-Prostora (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_aec70c57efb108f48afd9b6a7bb1a51d5}
+
+
+Definition at line 14 of file pretraga\-\_\-raspona.\-cpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_pretraga_prostora_a6d7560ae44bcc2346a73b84537d3e56e}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!crtaj@{crtaj}}
+\index{crtaj@{crtaj}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{crtaj}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::crtaj (
+\begin{DoxyParamCaption}
+\item[{Q\-Painter $\ast$}]{painter}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_a6d7560ae44bcc2346a73b84537d3e56e}
+
+
+Definition at line 124 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_a2242f0fcbad64cd5a1d862eacc4b1075}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!jel\-Crtanje@{jel\-Crtanje}}
+\index{jel\-Crtanje@{jel\-Crtanje}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{jel\-Crtanje}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::jel\-Crtanje (
+\begin{DoxyParamCaption}
+\item[{bool}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}}\label{class_pretraga_prostora_a2242f0fcbad64cd5a1d862eacc4b1075}
+
+
+Definition at line 105 of file moc\-\_\-pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_ab2120067abfe1b99db49c801859e2580}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!jel\-Pretraga@{jel\-Pretraga}}
+\index{jel\-Pretraga@{jel\-Pretraga}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{jel\-Pretraga}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::jel\-Pretraga (
+\begin{DoxyParamCaption}
+\item[{bool}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}}\label{class_pretraga_prostora_ab2120067abfe1b99db49c801859e2580}
+
+
+Definition at line 98 of file moc\-\_\-pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_a77c67e48ced1ac4d64ba45fd091ed743}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!kreiraj\-Iz\-Fajla@{kreiraj\-Iz\-Fajla}}
+\index{kreiraj\-Iz\-Fajla@{kreiraj\-Iz\-Fajla}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{kreiraj\-Iz\-Fajla}]{\setlength{\rightskip}{0pt plus 5cm}bool Pretraga\-Prostora\-::kreiraj\-Iz\-Fajla (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{ime\-\_\-fajla}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_a77c67e48ced1ac4d64ba45fd091ed743}
+
+
+Definition at line 143 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_aa829d10b5853ebec128e4ea5e8d9c50d}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!mouse\-Move\-Event@{mouse\-Move\-Event}}
+\index{mouse\-Move\-Event@{mouse\-Move\-Event}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{mouse\-Move\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::mouse\-Move\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Mouse\-Event $\ast$}]{dogadjaj}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_aa829d10b5853ebec128e4ea5e8d9c50d}
+
+
+Definition at line 72 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_a7d9629f10ac2734e46650cfe5d9e7678}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!mouse\-Press\-Event@{mouse\-Press\-Event}}
+\index{mouse\-Press\-Event@{mouse\-Press\-Event}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{mouse\-Press\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::mouse\-Press\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Mouse\-Event $\ast$}]{dogadjaj}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_a7d9629f10ac2734e46650cfe5d9e7678}
+
+
+Definition at line 26 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_a824208ae98979eac421e98777269dd89}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!mouse\-Release\-Event@{mouse\-Release\-Event}}
+\index{mouse\-Release\-Event@{mouse\-Release\-Event}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{mouse\-Release\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::mouse\-Release\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Mouse\-Event $\ast$}]{dogadjaj}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_a824208ae98979eac421e98777269dd89}
+
+
+Definition at line 81 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_a1eae55313168c7878a04791904aca24d}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!paint\-Event@{paint\-Event}}
+\index{paint\-Event@{paint\-Event}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{paint\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::paint\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Paint\-Event $\ast$}]{dogadjaj}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_a1eae55313168c7878a04791904aca24d}
+
+
+Definition at line 18 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_ad2c92c0d42c2a9c23788fcb352502e4c}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!ponisti\-Odabir\-Duzi@{ponisti\-Odabir\-Duzi}}
+\index{ponisti\-Odabir\-Duzi@{ponisti\-Odabir\-Duzi}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{ponisti\-Odabir\-Duzi}]{\setlength{\rightskip}{0pt plus 5cm}void Pretraga\-Prostora\-::ponisti\-Odabir\-Duzi (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_ad2c92c0d42c2a9c23788fcb352502e4c}
+
+
+Definition at line 209 of file pretraga\-\_\-raspona.\-cpp.
+
+\hypertarget{class_pretraga_prostora_a03158f7f63fe042715c1c87dd5030a9c}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!spasi\-U\-Fajl@{spasi\-U\-Fajl}}
+\index{spasi\-U\-Fajl@{spasi\-U\-Fajl}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{spasi\-U\-Fajl}]{\setlength{\rightskip}{0pt plus 5cm}bool Pretraga\-Prostora\-::spasi\-U\-Fajl (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{ime\-\_\-fajla}
+\end{DoxyParamCaption}
+)}}\label{class_pretraga_prostora_a03158f7f63fe042715c1c87dd5030a9c}
+
+
+Definition at line 181 of file pretraga\-\_\-raspona.\-cpp.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_pretraga_prostora_ae8c588bb3ba72d89da47ef6acb56d666}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!crna@{crna}}
+\index{crna@{crna}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{crna}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pen Pretraga\-Prostora\-::crna}}\label{class_pretraga_prostora_ae8c588bb3ba72d89da47ef6acb56d666}
+
+
+Vektor krajnjih taèaka duži 
+
+
+
+Definition at line 53 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_acc5253bae5ddafcd62073e8f88b21591}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!crvena@{crvena}}
+\index{crvena@{crvena}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{crvena}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pen Pretraga\-Prostora\-::crvena}}\label{class_pretraga_prostora_acc5253bae5ddafcd62073e8f88b21591}
+
+
+Boja za oznacenu duzu. 
+
+
+
+Definition at line 54 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_a7ea1f4731d1530b881c09dc998c0b7eb}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!izbor@{izbor}}
+\index{izbor@{izbor}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{izbor}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Rubber\-Band$\ast$ Pretraga\-Prostora\-::izbor}}\label{class_pretraga_prostora_a7ea1f4731d1530b881c09dc998c0b7eb}
+
+
+Polazna taèka duži u fazi kada ih kreiramo. 
+
+
+
+Definition at line 50 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_a1aebe38ac90814aabf6de6eeae3930e4}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!m\-\_\-rtree@{m\-\_\-rtree}}
+\index{m\-\_\-rtree@{m\-\_\-rtree}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{m\-\_\-rtree}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Stablo\-Raspona} Pretraga\-Prostora\-::m\-\_\-rtree}}\label{class_pretraga_prostora_a1aebe38ac90814aabf6de6eeae3930e4}
+
+
+Boja za neoznacenu duz. 
+
+
+
+Definition at line 55 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_a64f3f45de751ae06c41bb0f24d0d4850}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!m\-\_\-stablo\-Duzi@{m\-\_\-stablo\-Duzi}}
+\index{m\-\_\-stablo\-Duzi@{m\-\_\-stablo\-Duzi}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{m\-\_\-stablo\-Duzi}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Stablo\-Duzi} Pretraga\-Prostora\-::m\-\_\-stablo\-Duzi}}\label{class_pretraga_prostora_a64f3f45de751ae06c41bb0f24d0d4850}
+
+
+Instanca klase stablo raspona. 
+
+
+
+Definition at line 56 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_a1b67cf84d7be3e32d4d93bdd9ae14deb}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!pocetak\-\_\-prozora@{pocetak\-\_\-prozora}}
+\index{pocetak\-\_\-prozora@{pocetak\-\_\-prozora}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{pocetak\-\_\-prozora}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Point Pretraga\-Prostora\-::pocetak\-\_\-prozora}}\label{class_pretraga_prostora_a1b67cf84d7be3e32d4d93bdd9ae14deb}
+
+
+Trenutno stanje aplikacije. 
+
+
+
+Definition at line 48 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_a5a852eb02e2b72c6a5d76c6014be973c}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!start@{start}}
+\index{start@{start}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{start}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Point Pretraga\-Prostora\-::start}}\label{class_pretraga_prostora_a5a852eb02e2b72c6a5d76c6014be973c}
+
+
+Pocetna taèka prozora pretrage. 
+
+
+
+Definition at line 49 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_ad93cf86ec7ba91d96f16c69ede98b180}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!trenutno\-Stanje@{trenutno\-Stanje}}
+\index{trenutno\-Stanje@{trenutno\-Stanje}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{trenutno\-Stanje}]{\setlength{\rightskip}{0pt plus 5cm}{\bf state} Pretraga\-Prostora\-::trenutno\-Stanje}}\label{class_pretraga_prostora_ad93cf86ec7ba91d96f16c69ede98b180}
+
+
+Definition at line 47 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_a71304ed78eb54bb4362e3f19b777b420}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!vektor\-Duzi@{vektor\-Duzi}}
+\index{vektor\-Duzi@{vektor\-Duzi}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{vektor\-Duzi}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Vector$<${\bf Duz}$>$ Pretraga\-Prostora\-::vektor\-Duzi}}\label{class_pretraga_prostora_a71304ed78eb54bb4362e3f19b777b420}
+
+
+Izabrani raspon. 
+
+
+
+Definition at line 51 of file pretraga\-\_\-raspona.\-h.
+
+\hypertarget{class_pretraga_prostora_a0757daf831ce7c8deae521e2bd56da3f}{\index{Pretraga\-Prostora@{Pretraga\-Prostora}!vektor\-Krajnjih\-Tacaka@{vektor\-Krajnjih\-Tacaka}}
+\index{vektor\-Krajnjih\-Tacaka@{vektor\-Krajnjih\-Tacaka}!PretragaProstora@{Pretraga\-Prostora}}
+\subsubsection[{vektor\-Krajnjih\-Tacaka}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Vector$<${\bf Krajnja\-Tacka\-Duzi}$>$ Pretraga\-Prostora\-::vektor\-Krajnjih\-Tacaka}}\label{class_pretraga_prostora_a0757daf831ce7c8deae521e2bd56da3f}
+
+
+Vektor sa nacrtanim dužima. 
+
+
+
+Definition at line 52 of file pretraga\-\_\-raspona.\-h.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{pretraga__raspona_8h}{pretraga\-\_\-raspona.\-h}\item 
+Generated\-Files/\-Debug/\hyperlink{_debug_2moc__pretraga__raspona_8cpp}{moc\-\_\-pretraga\-\_\-raspona.\-cpp}\item 
+Generated\-Files/\-Release/\hyperlink{_release_2moc__pretraga__raspona_8cpp}{moc\-\_\-pretraga\-\_\-raspona.\-cpp}\item 
+\hyperlink{pretraga__raspona_8cpp}{pretraga\-\_\-raspona.\-cpp}\end{DoxyCompactItemize}

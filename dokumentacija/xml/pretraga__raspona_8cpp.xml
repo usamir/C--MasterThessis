@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="pretraga__raspona_8cpp" kind="file">
+    <compoundname>pretraga_raspona.cpp</compoundname>
+    <includes refid="pretraga__raspona_8h" local="yes">pretraga_raspona.h</includes>
+    <incdepgraph>
+      <node id="193">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="182">
+        <label>QtGui/QMainWindow</label>
+      </node>
+      <node id="176">
+        <label>QMessageBox</label>
+      </node>
+      <node id="174">
+        <label>QRubberBand</label>
+      </node>
+      <node id="188">
+        <label>QtAlgorithms</label>
+      </node>
+      <node id="192">
+        <label>boost/foreach.hpp</label>
+      </node>
+      <node id="195">
+        <label>QLineF</label>
+      </node>
+      <node id="171">
+        <label>QPoint</label>
+      </node>
+      <node id="194">
+        <label>stablo_duzi.h</label>
+        <link refid="stablo__duzi_8h"/>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>QtGui/QApplication</label>
+      </node>
+      <node id="190">
+        <label>stablo_raspona.h</label>
+        <link refid="stablo__raspona_8h"/>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>QPainter</label>
+      </node>
+      <node id="177">
+        <label>QtCore/QVariant</label>
+      </node>
+      <node id="175">
+        <label>QMouseEvent</label>
+      </node>
+      <node id="172">
+        <label>QFileDialog</label>
+      </node>
+      <node id="165">
+        <label>pretraga_raspona.h</label>
+        <link refid="pretraga__raspona_8h"/>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>QtGui/QWidget</label>
+      </node>
+      <node id="184">
+        <label>QtGui/QMenuBar</label>
+      </node>
+      <node id="169">
+        <label>QVectorIterator</label>
+      </node>
+      <node id="164">
+        <label>pretraga_raspona.cpp</label>
+        <link refid="pretraga_raspona.cpp"/>
+        <childnode refid="165" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>QtGui/QAction</label>
+      </node>
+      <node id="189">
+        <label>math.h</label>
+      </node>
+      <node id="186">
+        <label>QtGui/QToolBar</label>
+      </node>
+      <node id="166">
+        <label>iostream</label>
+      </node>
+      <node id="183">
+        <label>QtGui/QMenu</label>
+      </node>
+      <node id="180">
+        <label>QtGui/QButtonGroup</label>
+      </node>
+      <node id="167">
+        <label>QTextStream</label>
+      </node>
+      <node id="185">
+        <label>QtGui/QStatusBar</label>
+      </node>
+      <node id="191">
+        <label>algorithm</label>
+      </node>
+      <node id="181">
+        <label>QtGui/QHeaderView</label>
+      </node>
+      <node id="170">
+        <label>strukture.h</label>
+        <link refid="strukture_8h"/>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>QVector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="pretraga__raspona_8h" kindref="compound">pretraga_raspona.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_pretraga_prostora_1a9dcae5cdc25396e7c3d7d5800e40aa21" refkind="member"><highlight class="normal"><ref refid="class_pretraga_prostora_1a9dcae5cdc25396e7c3d7d5800e40aa21" kindref="member">PretragaProstora::PretragaProstora</ref>(QWidget<sp/>*parent)<sp/>:<sp/>QWidget(parent)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ae8c588bb3ba72d89da47ef6acb56d666" kindref="member">crna</ref><sp/>=<sp/>QPen(Qt::black,1);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1acc5253bae5ddafcd62073e8f88b21591" kindref="member">crvena</ref><sp/>=<sp/>QPen(Qt::red,2);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QRubberBand(QRubberBand::Rectangle,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90a80ccf7e839fca4f0c3e059f2937d5d79" kindref="member">CEKANJA</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_pretraga_prostora_1aec70c57efb108f48afd9b6a7bb1a51d5" refkind="member"><highlight class="normal"><ref refid="class_pretraga_prostora_1aec70c57efb108f48afd9b6a7bb1a51d5" kindref="member">PretragaProstora::~PretragaProstora</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_pretraga_prostora_1a1eae55313168c7878a04791904aca24d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1a1eae55313168c7878a04791904aca24d" kindref="member">PretragaProstora::paintEvent</ref>(QPaintEvent<sp/>*dogadjaj)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QPainter<sp/>crtac(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>crtac.setRenderHint(QPainter::Antialiasing,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a6d7560ae44bcc2346a73b84537d3e56e" kindref="member">crtaj</ref>(&amp;crtac);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_pretraga_prostora_1a7d9629f10ac2734e46650cfe5d9e7678" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1a7d9629f10ac2734e46650cfe5d9e7678" kindref="member">PretragaProstora::mousePressEvent</ref>(QMouseEvent<sp/>*dogadjaj)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Akcija<sp/>mousePress<sp/>zavisi<sp/>u<sp/>kojem<sp/>stanju<sp/>je<sp/>aplikacija</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(<ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref>)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af189cfaa8f64bfe3679bc5ab3338d537" kindref="member">PRETRAGA</ref>:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a1b67cf84d7be3e32d4d93bdd9ae14deb" kindref="member">pocetak_prozora</ref><sp/>=<sp/>dogadjaj-&gt;pos();<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;setGeometry(QRect(<ref refid="class_pretraga_prostora_1a1b67cf84d7be3e32d4d93bdd9ae14deb" kindref="member">pocetak_prozora</ref>,<sp/>QSize()));</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;show();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad2c92c0d42c2a9c23788fcb352502e4c" kindref="member">ponistiOdabirDuzi</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Stanje<sp/>kada<sp/>aplikacija<sp/>čeka<sp/>koordiante<sp/>početka<sp/>duži<sp/>koje<sp/>crtamo,<sp/>pohrani<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>u<sp/>memoriju<sp/>te<sp/>koordinate</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af04dc3fd7d286e3b2f0d47d9af522b7d" kindref="member">CRTANJA1</ref>:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a5a852eb02e2b72c6a5d76c6014be973c" kindref="member">start</ref><sp/>=<sp/>dogadjaj-&gt;pos();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90afdfe620270b33d58d083a04ad9287b99" kindref="member">CRTANJA2</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Stanje<sp/>kada<sp/>aplikacija<sp/>čeka<sp/>koordiante<sp/>druge<sp/>krajnje<sp/>tačke<sp/>duži<sp/>koje<sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>crtamo,<sp/>pohrani<sp/>u<sp/>memoriju<sp/>te<sp/>koordinate</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90afdfe620270b33d58d083a04ad9287b99" kindref="member">CRTANJA2</ref>:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_duz" kindref="compound">Duz</ref><sp/>s;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" kindref="member">postaviPocetnuKoordinatu</ref>(<ref refid="class_pretraga_prostora_1a5a852eb02e2b72c6a5d76c6014be973c" kindref="member">start</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" kindref="member">postaviKrajnjuKoordinatu</ref>(dogadjaj-&gt;pos());</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" kindref="member">ponistiOznacenuDuz</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>.push_back(s);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af04dc3fd7d286e3b2f0d47d9af522b7d" kindref="member">CRTANJA1</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="class_pretraga_prostora_1aa829d10b5853ebec128e4ea5e8d9c50d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1aa829d10b5853ebec128e4ea5e8d9c50d" kindref="member">PretragaProstora::mouseMoveEvent</ref>(QMouseEvent<sp/>*dogadjaj)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>==<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af189cfaa8f64bfe3679bc5ab3338d537" kindref="member">PRETRAGA</ref>)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;setGeometry(QRect(<ref refid="class_pretraga_prostora_1a1b67cf84d7be3e32d4d93bdd9ae14deb" kindref="member">pocetak_prozora</ref>,<sp/>dogadjaj-&gt;pos()).normalized());</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="class_pretraga_prostora_1a824208ae98979eac421e98777269dd89" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1a824208ae98979eac421e98777269dd89" kindref="member">PretragaProstora::mouseReleaseEvent</ref>(QMouseEvent<sp/>*dogadjaj)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>==<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af189cfaa8f64bfe3679bc5ab3338d537" kindref="member">PRETRAGA</ref>)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1<sp/>=<sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;x();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y1<sp/>=<sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;y();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x2<sp/>=<sp/>x1+<ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;width();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y2<sp/>=<sp/>y1+<ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;height();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref><sp/>pocetak,<sp/>kraj;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QPoint<sp/>prva_tacka,<sp/>druga_tacka;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimenzija<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prva_tacka.setX(x1);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prva_tacka.setY(y1);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>druga_tacka.setX(x2);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>druga_tacka.setY(y2);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pocetak.<ref refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" kindref="member">postaviKoordinatu</ref>(prva_tacka);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kraj.<ref refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" kindref="member">postaviKoordinatu</ref>(druga_tacka);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a1aebe38ac90814aabf6de6eeae3930e4" kindref="member">m_rtree</ref>.<ref refid="class_stablo_raspona_1aba64a9f4197752410506cd514bb80f53" kindref="member">pretragaRaspona</ref>(pocetak,<sp/>kraj,<sp/>dimenzija);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;KrajnjaTackaDuzi&gt;<sp/>rezultat<sp/>=<sp/><ref refid="class_pretraga_prostora_1a1aebe38ac90814aabf6de6eeae3930e4" kindref="member">m_rtree</ref>.<ref refid="class_stablo_raspona_1af93cb0b9ee1ca56fe1682281df955f03" kindref="member">vratiRezultat</ref>();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QVector&lt;KrajnjaTackaDuzi&gt;::iterator<sp/>it<sp/>=<sp/>rezultat.begin();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(it;<sp/>it<sp/>!=<sp/>rezultat.end();<sp/>++it)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>it-&gt;vratiIdDuzi();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!(<ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].jelOznacena()))</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].oznaciDuz();<sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" kindref="member">m_stabloDuzi</ref>.pretraziStabloDuzi(x1,<sp/>y1,<sp/>y2,<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>,<sp/>1);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" kindref="member">m_stabloDuzi</ref>.pretraziStabloDuzi(x2,<sp/>y1,<sp/>y2,<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>,<sp/>1);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" kindref="member">m_stabloDuzi</ref>.pretraziStabloDuzi(y1,<sp/>x1,<sp/>x2,<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>,<sp/>2);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" kindref="member">m_stabloDuzi</ref>.pretraziStabloDuzi(y2,<sp/>x1,<sp/>x2,<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>,<sp/>2);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="class_pretraga_prostora_1a6d7560ae44bcc2346a73b84537d3e56e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1a6d7560ae44bcc2346a73b84537d3e56e" kindref="member">PretragaProstora::crtaj</ref>(QPainter<sp/>*painter)</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>QVectorIterator&lt;Duz&gt;<sp/>it(<ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(it.hasNext())</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_duz" kindref="compound">Duz</ref><sp/>duz<sp/>=<sp/>it.next();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(duz.<ref refid="struct_duz_1aeefdf37bfc9720b43463bf8bc938e9ec" kindref="member">jelOznacena</ref>())</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>painter-&gt;setPen(<ref refid="class_pretraga_prostora_1acc5253bae5ddafcd62073e8f88b21591" kindref="member">crvena</ref>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>painter-&gt;setPen(<ref refid="class_pretraga_prostora_1ae8c588bb3ba72d89da47ef6acb56d666" kindref="member">crna</ref>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>painter-&gt;drawLine(duz.<ref refid="struct_duz_1a2662b456f15f42794ddb5c1bfc3f6bb4" kindref="member">vratiPocetnuKoordinatu</ref>(),<sp/>duz.<ref refid="struct_duz_1af397176a5357fecb7f785ad9685d53b2" kindref="member">vratiKrajnjuKoordinatu</ref>());</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="class_pretraga_prostora_1a77c67e48ced1ac4d64ba45fd091ed743" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1a77c67e48ced1ac4d64ba45fd091ed743" kindref="member">PretragaProstora::kreirajIzFajla</ref>(QString<sp/>filename)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile<sp/>file(filename);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1,<sp/>y1,<sp/>x2,<sp/>y2;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!file.open(QIODevice::ReadWrite<sp/>|<sp/>QIODevice::Text))</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>QTextStream<sp/>in(&amp;file);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>.clear();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!in.atEnd())<sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>line<sp/>=<sp/>in.readLine();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Podaci<sp/>su<sp/>razmaknuti<sp/>&apos;spaceom&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QStringList<sp/>fields<sp/>=<sp/>line.split(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Kupi<sp/>podatke<sp/>iz<sp/>fajla<sp/>i<sp/>pohranjuje<sp/>koordiante<sp/>u<sp/>&apos;int&apos;<sp/>varijable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fields.size()<sp/>==<sp/>4)<sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x1<sp/>=<sp/>fields.at(0).toInt();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y1<sp/>=<sp/>fields.at(1).toInt();</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x2<sp/>=<sp/>fields.at(2).toInt();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y2<sp/>=<sp/>fields.at(3).toInt();</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_duz" kindref="compound">Duz</ref><sp/>s;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" kindref="member">postaviPocetnuKoordinatu</ref>(QPoint(x1,y1));</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" kindref="member">postaviKrajnjuKoordinatu</ref>(QPoint(x2,y2));</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" kindref="member">ponistiOznacenuDuz</ref>();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>.push_back(s);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="class_pretraga_prostora_1a03158f7f63fe042715c1c87dd5030a9c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1a03158f7f63fe042715c1c87dd5030a9c" kindref="member">PretragaProstora::spasiUFajl</ref>(QString<sp/>filename)</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>QFile<sp/>file(filename);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1,<sp/>y1,<sp/>x2,<sp/>y2,<sp/>brojDuzi;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!file.open(QIODevice::WriteOnly))<sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::cerr<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Ne<sp/>moze<sp/>da<sp/>otvori<sp/>fajl<sp/>za<sp/>upisivanje:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qPrintable(file.errorString())<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>QTextStream<sp/>out(&amp;file);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>brojDuzi<sp/>=<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>.size();</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i<sp/>&lt;<sp/>brojDuzi;<sp/>i++)</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x1<sp/>=<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].vratiPocetnuKoordinatu(1);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y1<sp/>=<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].vratiPocetnuKoordinatu(2);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x2<sp/>=<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].vratiKrajnjuKoordinatu(1);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>y2<sp/>=<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].vratiKrajnjuKoordinatu(2);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>upisuj<sp/>u<sp/>fajl<sp/>koordinate<sp/>i<sp/>odvajamo<sp/>ih<sp/>sa<sp/>&apos;spaceom&apos;<sp/>da<sp/>ih<sp/>moze<sp/>lakse<sp/>parsati<sp/>kada<sp/>ih<sp/>citamo</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/>x1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>y1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>x2<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>y2&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>file.close();</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="class_pretraga_prostora_1ad2c92c0d42c2a9c23788fcb352502e4c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_pretraga_prostora_1ad2c92c0d42c2a9c23788fcb352502e4c" kindref="member">PretragaProstora::ponistiOdabirDuzi</ref>()</highlight></codeline>
+<codeline lineno="210"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].ponistiOznacenuDuz();</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PretragaProstora::idiUStanjeCrtanja()</highlight></codeline>
+<codeline lineno="219"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>!=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af04dc3fd7d286e3b2f0d47d9af522b7d" kindref="member">CRTANJA1</ref>)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_pretraga_prostora_1ab2120067abfe1b99db49c801859e2580" kindref="member">jelPretraga</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af04dc3fd7d286e3b2f0d47d9af522b7d" kindref="member">CRTANJA1</ref>;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad2c92c0d42c2a9c23788fcb352502e4c" kindref="member">ponistiOdabirDuzi</ref>();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PretragaProstora::idiUStanjePretrage()</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>!=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af189cfaa8f64bfe3679bc5ab3338d537" kindref="member">PRETRAGA</ref>)</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Stavljanje<sp/>u<sp/>vektor<sp/>krajnjih<sp/>tacaka,<sp/>krajnje<sp/>tacke<sp/>duzi<sp/>koje<sp/>cemo<sp/>ispitivati<sp/>da<sp/>li<sp/>leze<sp/>u<sp/>rasponu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" kindref="member">vektorKrajnjihTacaka</ref>.clear();<sp/></highlight><highlight class="comment">//<sp/>Ispraznimo<sp/>vektor<sp/>krajnjih<sp/>tačaka</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i(0);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(i<sp/>&lt;<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>.size())</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].postaviIDDuzi(i);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref><sp/>pocetna_tacka;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pocetna_tacka.<ref refid="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" kindref="member">postaviIdDuzi</ref>(i);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pocetna_tacka.<ref refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" kindref="member">postaviKoordinatu</ref>(<ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].vratiPocetnuKoordinatu());</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" kindref="member">vektorKrajnjihTacaka</ref>.push_back(pocetna_tacka);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_krajnja_tacka_duzi" kindref="compound">KrajnjaTackaDuzi</ref><sp/>krajnja_tacka;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>krajnja_tacka.<ref refid="struct_krajnja_tacka_duzi_1a988a6f6db53f5b25b26d89a772ba22b5" kindref="member">postaviIdDuzi</ref>(i);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>krajnja_tacka.<ref refid="struct_krajnja_tacka_duzi_1a9583e853bfe7708fc9e7b5c285ae2e62" kindref="member">postaviKoordinatu</ref>(<ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>[i].vratiKrajnjuKoordinatu());</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" kindref="member">vektorKrajnjihTacaka</ref>.push_back(krajnja_tacka);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Ako<sp/>ima<sp/>podataka<sp/>u<sp/>vektoru,<sp/>mozemo<sp/>krenuti<sp/>sa<sp/>kreiranjem<sp/>stabla<sp/>raspona<sp/>i<sp/>stabla<sp/>duzi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" kindref="member">vektorKrajnjihTacaka</ref>.size()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_stablo_raspona" kindref="compound">StabloRaspona</ref><sp/>rtree(<ref refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" kindref="member">vektorKrajnjihTacaka</ref>,<sp/>2);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a1aebe38ac90814aabf6de6eeae3930e4" kindref="member">m_rtree</ref><sp/>=<sp/>rtree;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_stablo_duzi" kindref="compound">StabloDuzi</ref><sp/>stablo_duzi(<ref refid="class_pretraga_prostora_1a0757daf831ce7c8deae521e2bd56da3f" kindref="member">vektorKrajnjihTacaka</ref>,<sp/>2,<sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a64f3f45de751ae06c41bb0f24d0d4850" kindref="member">m_stabloDuzi</ref><sp/>=<sp/>stablo_duzi;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_pretraga_prostora_1a2242f0fcbad64cd5a1d862eacc4b1075" kindref="member">jelCrtanje</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90af189cfaa8f64bfe3679bc5ab3338d537" kindref="member">PRETRAGA</ref>;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="270"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PretragaProstora::reset()</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a71304ed78eb54bb4362e3f19b777b420" kindref="member">vektorDuzi</ref>.clear();</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90a80ccf7e839fca4f0c3e059f2937d5d79" kindref="member">CEKANJA</ref>;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;hide();<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_pretraga_prostora_1ab2120067abfe1b99db49c801859e2580" kindref="member">jelPretraga</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_pretraga_prostora_1a2242f0fcbad64cd5a1d862eacc4b1075" kindref="member">jelCrtanje</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PretragaProstora::otvoriFajl()</highlight></codeline>
+<codeline lineno="286"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString<sp/>filename<sp/>=<sp/>QFileDialog::getOpenFileName(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Otvori<sp/>listu<sp/>duzi&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;lista.slst&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Lista<sp/>duzi<sp/>(*.slst)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!filename.isNull())</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="class_pretraga_prostora_1a77c67e48ced1ac4d64ba45fd091ed743" kindref="member">kreirajIzFajla</ref>(filename))</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90a80ccf7e839fca4f0c3e059f2937d5d79" kindref="member">CEKANJA</ref>;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1a7ea1f4731d1530b881c09dc998c0b7eb" kindref="member">izbor</ref>-&gt;hide();</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_pretraga_prostora_1ab2120067abfe1b99db49c801859e2580" kindref="member">jelPretraga</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>emit<sp/><ref refid="class_pretraga_prostora_1a2242f0fcbad64cd5a1d862eacc4b1075" kindref="member">jelCrtanje</ref>(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>update();</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PretragaProstora::spasiFajl()</highlight></codeline>
+<codeline lineno="306"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>filename<sp/>=<sp/>QFileDialog::getSaveFileName(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Spasi<sp/>listu<sp/>duzi&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;lista.slst&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Lista<sp/>duzi<sp/>(*.slst)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!filename.isNull())</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="class_pretraga_prostora_1a03158f7f63fe042715c1c87dd5030a9c" kindref="member">spasiUFajl</ref>(filename))</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_pretraga_prostora_1ad93cf86ec7ba91d96f16c69ede98b180" kindref="member">trenutnoStanje</ref><sp/>=<sp/><ref refid="pretraga__raspona_8h_1adc6e5733fc3c22f0a7b2914188c49c90a80ccf7e839fca4f0c3e059f2937d5d79" kindref="member">CEKANJA</ref>;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PretragaProstora::informacije()</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>QMessageBox::about(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;O<sp/>Magistarskoj<sp/>aplikaciji&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Primjena<sp/>algoritama<sp/>za<sp/>pretragu<sp/>visedimenzionalnog<sp/>prostora\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Copyright<sp/>2013<sp/>Samir<sp/>Uzunovic<sp/>&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PretragaProstora::pomoc()</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>QMessageBox::about(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Aplikacija\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Odlaskom<sp/>na<sp/>meni<sp/>Edit-&gt;Crtaj<sp/>ili<sp/>pritiskom<sp/>na<sp/>ikonu<sp/>olovke<sp/>mozemo<sp/>da\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;nacrtamo<sp/>duzi<sp/>koje<sp/>cemo<sp/>da<sp/>pretrazimo\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Nacrtane<sp/>duzi<sp/>mozemo<sp/>spasiti<sp/>tako<sp/>sto<sp/>cemo<sp/>otici<sp/>na<sp/>meni<sp/>File-&gt;Spasi\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ili<sp/>pritiskom<sp/>na<sp/>disketu<sp/>\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Vec<sp/>spasene<sp/>duzi<sp/>mozemo<sp/>ucitati<sp/>tako<sp/>sto<sp/>cemo<sp/>ici<sp/>na<sp/>File-&gt;Otvori<sp/>ili\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;tako<sp/>sto<sp/>cemo<sp/>otici<sp/>an<sp/>ikonu<sp/>folder\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Dobijamo<sp/>cistu<sp/>plohu<sp/>za<sp/>crtanje<sp/>tako<sp/>sto<sp/>cemo<sp/>otici<sp/>na<sp/>meni<sp/>File-&gt;Reset\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ili<sp/>na<sp/>pritiskom<sp/>na<sp/>ikonu<sp/>papir\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Nacrtane<sp/>duzi<sp/>ili<sp/>duzi<sp/>koje<sp/>smo<sp/>ucitali<sp/>na<sp/>plohu<sp/>za<sp/>crtanje,<sp/>mozemo\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;pretraziti<sp/>tako<sp/>sto<sp/>cemo<sp/>na<sp/>Edit-&gt;Pretraga<sp/>ili<sp/>na<sp/>ikonu<sp/>mape\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Info<sp/>aplikaciji<sp/>mozemo<sp/>vidjeti<sp/>tako<sp/>sto<sp/>cemo<sp/>otici<sp/>na<sp/>Info-&gt;Informacije\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ili<sp/>pristikom<sp/>na<sp/>ikonu<sp/>informacija\n\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Izlazimo<sp/>iz<sp/>aplikacije<sp/>na<sp/>File-&gt;Izlaz<sp/>ili<sp/>na<sp/>odlaskom<sp/>na<sp/>ikonu<sp/>X.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Samir/app/pretraga_raspona.cpp"/>
+  </compounddef>
+</doxygen>

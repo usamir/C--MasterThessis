@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_stablo_duzi_1_1_asocijativni_cvor" kind="struct" prot="private">
+    <compoundname>StabloDuzi::AsocijativniCvor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_asocijativni_cvor_1a2e5d08a307d13771e0316aaa3ecabcc6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_elementarni_interval" kindref="compound">ElementarniInterval</ref></type>
+        <definition>ElementarniInterval StabloDuzi::AsocijativniCvor::m_elementarni_interval</definition>
+        <argsstring></argsstring>
+        <name>m_elementarni_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="31" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_asocijativni_cvor_1a5f82ba43e3eae6db009a70992369a224" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StabloDuzi::AsocijativniCvor::idDuzi</definition>
+        <argsstring></argsstring>
+        <name>idDuzi</name>
+        <briefdescription>
+<para>Elementarni intervali duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="32" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stablo_duzi_1_1_asocijativni_cvor_1a47a041893c15e7cafd55d1df1c63c51d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StabloDuzi::AsocijativniCvor::vrijednostPresjeka</definition>
+        <argsstring></argsstring>
+        <name>vrijednostPresjeka</name>
+        <briefdescription>
+<para>Identifikacija duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="33" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_stablo_duzi_1_1_asocijativni_cvor_1a5b030166d0f1b297df96d74b76e818d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void StabloDuzi::AsocijativniCvor::postaviVrijednost</definition>
+        <argsstring>(int v)</argsstring>
+        <name>postaviVrijednost</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Vrijednost presjeka granicne prave sa duzi koju ispitujemo. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/stablo_duzi.h" line="41" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>StabloDuzi::AsocijativniCvor</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>m_elementarni_interval</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ElementarniInterval</label>
+        <link refid="struct_elementarni_interval"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Samir/app/stablo_duzi.h" line="29" column="1" bodyfile="D:/Samir/app/stablo_duzi.h" bodystart="28" bodyend="43"/>
+    <listofallmembers>
+      <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a5f82ba43e3eae6db009a70992369a224" prot="public" virt="non-virtual"><scope>StabloDuzi::AsocijativniCvor</scope><name>idDuzi</name></member>
+      <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a2e5d08a307d13771e0316aaa3ecabcc6" prot="public" virt="non-virtual"><scope>StabloDuzi::AsocijativniCvor</scope><name>m_elementarni_interval</name></member>
+      <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a5b030166d0f1b297df96d74b76e818d8" prot="public" virt="non-virtual"><scope>StabloDuzi::AsocijativniCvor</scope><name>postaviVrijednost</name></member>
+      <member refid="struct_stablo_duzi_1_1_asocijativni_cvor_1a47a041893c15e7cafd55d1df1c63c51d" prot="public" virt="non-virtual"><scope>StabloDuzi::AsocijativniCvor</scope><name>vrijednostPresjeka</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

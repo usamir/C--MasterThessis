@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="struct_duz" kind="struct" prot="public">
+    <compoundname>Duz</compoundname>
+    <includes refid="backup_2strukture_8h" local="no">strukture.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_duz_1a6582e411e3bdea514ede58e1b62c10c5" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Duz::m_startnaKoordinata</definition>
+        <argsstring></argsstring>
+        <name>m_startnaKoordinata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="12" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_duz_1a0b7f63e094c2c3c7302b23910b3ab80a" prot="private" static="no" mutable="no">
+        <type>QPoint</type>
+        <definition>QPoint Duz::m_krajnjaKoordinata</definition>
+        <argsstring></argsstring>
+        <name>m_krajnjaKoordinata</name>
+        <briefdescription>
+<para>Koordinate prve krajnje tacke duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="13" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_duz_1a27a7718b0b7fc9e0a6e3ffb1dda4c99e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Duz::oznacena</definition>
+        <argsstring></argsstring>
+        <name>oznacena</name>
+        <briefdescription>
+<para>Koordinate druge krajnje tacke duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="14" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_duz_1a8ec6e501e8ac0e95c4a863de6d46d0ed" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Duz::m_IDDuzi</definition>
+        <argsstring></argsstring>
+        <name>m_IDDuzi</name>
+        <briefdescription>
+<para>Varijabla koja govori da li je duz oznacena, to jeste da li se nalazi u prozoru pretrage. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="15" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_duz_1a554fe11a180cd764811139fd01bf4497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Duz::vratiIdDuzi</definition>
+        <argsstring>()</argsstring>
+        <name>vratiIdDuzi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="18" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1abd5a20344f28f0aa7e1866158eee381e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::postaviIDDuzi</definition>
+        <argsstring>(int idDuzi)</argsstring>
+        <name>postaviIDDuzi</name>
+        <param>
+          <type>int</type>
+          <declname>idDuzi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="20" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="20" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1aeefdf37bfc9720b43463bf8bc938e9ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Duz::jelOznacena</definition>
+        <argsstring>()</argsstring>
+        <name>jelOznacena</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="23" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a387f037e652d79a998985a2f9893614a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::oznaciDuz</definition>
+        <argsstring>()</argsstring>
+        <name>oznaciDuz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="26" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::ponistiOznacenuDuz</definition>
+        <argsstring>()</argsstring>
+        <name>ponistiOznacenuDuz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="29" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a2662b456f15f42794ddb5c1bfc3f6bb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Duz::vratiPocetnuKoordinatu</definition>
+        <argsstring>(int d)</argsstring>
+        <name>vratiPocetnuKoordinatu</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="32" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="32" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a3110e0ae026af8d6bb2d5de7662e7f8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Duz::vratiPocetnuKoordinatu</definition>
+        <argsstring>()</argsstring>
+        <name>vratiPocetnuKoordinatu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="47" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="47" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1af397176a5357fecb7f785ad9685d53b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Duz::vratiKrajnjuKoordinatu</definition>
+        <argsstring>()</argsstring>
+        <name>vratiKrajnjuKoordinatu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="50" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="50" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a3729d02c0b3d5b8181b398dc81ec79a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Duz::vratiKrajnjuKoordinatu</definition>
+        <argsstring>(int d)</argsstring>
+        <name>vratiKrajnjuKoordinatu</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="53" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="53" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::postaviPocetnuKoordinatu</definition>
+        <argsstring>(QPoint pocetnaKoord)</argsstring>
+        <name>postaviPocetnuKoordinatu</name>
+        <param>
+          <type>QPoint</type>
+          <declname>pocetnaKoord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="68" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="68" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::postaviKrajnjuKoordinatu</definition>
+        <argsstring>(QPoint krajnjaKoord)</argsstring>
+        <name>postaviKrajnjuKoordinatu</name>
+        <param>
+          <type>QPoint</type>
+          <declname>krajnjaKoord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/backup/strukture.h" line="71" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="71" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a554fe11a180cd764811139fd01bf4497" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Duz::vratiIdDuzi</definition>
+        <argsstring>()</argsstring>
+        <name>vratiIdDuzi</name>
+        <briefdescription>
+<para>Identifikacija duzi. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="19" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1abd5a20344f28f0aa7e1866158eee381e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::postaviIDDuzi</definition>
+        <argsstring>(int idDuzi)</argsstring>
+        <name>postaviIDDuzi</name>
+        <param>
+          <type>int</type>
+          <declname>idDuzi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="21" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="21" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1aeefdf37bfc9720b43463bf8bc938e9ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Duz::jelOznacena</definition>
+        <argsstring>()</argsstring>
+        <name>jelOznacena</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="24" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="24" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a387f037e652d79a998985a2f9893614a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::oznaciDuz</definition>
+        <argsstring>()</argsstring>
+        <name>oznaciDuz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="27" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="27" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::ponistiOznacenuDuz</definition>
+        <argsstring>()</argsstring>
+        <name>ponistiOznacenuDuz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="30" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="30" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a2662b456f15f42794ddb5c1bfc3f6bb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Duz::vratiPocetnuKoordinatu</definition>
+        <argsstring>(int d)</argsstring>
+        <name>vratiPocetnuKoordinatu</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="33" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="33" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a3110e0ae026af8d6bb2d5de7662e7f8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Duz::vratiPocetnuKoordinatu</definition>
+        <argsstring>()</argsstring>
+        <name>vratiPocetnuKoordinatu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="48" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="48" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1af397176a5357fecb7f785ad9685d53b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPoint</type>
+        <definition>QPoint Duz::vratiKrajnjuKoordinatu</definition>
+        <argsstring>()</argsstring>
+        <name>vratiKrajnjuKoordinatu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="51" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="51" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a3729d02c0b3d5b8181b398dc81ec79a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Duz::vratiKrajnjuKoordinatu</definition>
+        <argsstring>(int d)</argsstring>
+        <name>vratiKrajnjuKoordinatu</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="54" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="54" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::postaviPocetnuKoordinatu</definition>
+        <argsstring>(QPoint pocetnaKoord)</argsstring>
+        <name>postaviPocetnuKoordinatu</name>
+        <param>
+          <type>QPoint</type>
+          <declname>pocetnaKoord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="69" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="69" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Duz::postaviKrajnjuKoordinatu</definition>
+        <argsstring>(QPoint krajnjaKoord)</argsstring>
+        <name>postaviKrajnjuKoordinatu</name>
+        <param>
+          <type>QPoint</type>
+          <declname>krajnjaKoord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Samir/app/strukture.h" line="72" column="1" bodyfile="D:/Samir/app/strukture.h" bodystart="72" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Samir/app/backup/strukture.h" line="10" column="1" bodyfile="D:/Samir/app/backup/strukture.h" bodystart="9" bodyend="74"/>
+    <listofallmembers>
+      <member refid="struct_duz_1aeefdf37bfc9720b43463bf8bc938e9ec" prot="public" virt="non-virtual"><scope>Duz</scope><name>jelOznacena</name></member>
+      <member refid="struct_duz_1aeefdf37bfc9720b43463bf8bc938e9ec" prot="public" virt="non-virtual"><scope>Duz</scope><name>jelOznacena</name></member>
+      <member refid="struct_duz_1a8ec6e501e8ac0e95c4a863de6d46d0ed" prot="private" virt="non-virtual"><scope>Duz</scope><name>m_IDDuzi</name></member>
+      <member refid="struct_duz_1a0b7f63e094c2c3c7302b23910b3ab80a" prot="private" virt="non-virtual"><scope>Duz</scope><name>m_krajnjaKoordinata</name></member>
+      <member refid="struct_duz_1a6582e411e3bdea514ede58e1b62c10c5" prot="private" virt="non-virtual"><scope>Duz</scope><name>m_startnaKoordinata</name></member>
+      <member refid="struct_duz_1a27a7718b0b7fc9e0a6e3ffb1dda4c99e" prot="private" virt="non-virtual"><scope>Duz</scope><name>oznacena</name></member>
+      <member refid="struct_duz_1a387f037e652d79a998985a2f9893614a" prot="public" virt="non-virtual"><scope>Duz</scope><name>oznaciDuz</name></member>
+      <member refid="struct_duz_1a387f037e652d79a998985a2f9893614a" prot="public" virt="non-virtual"><scope>Duz</scope><name>oznaciDuz</name></member>
+      <member refid="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" prot="public" virt="non-virtual"><scope>Duz</scope><name>ponistiOznacenuDuz</name></member>
+      <member refid="struct_duz_1a0c9418b7bb2ae6da48f29622371738ba" prot="public" virt="non-virtual"><scope>Duz</scope><name>ponistiOznacenuDuz</name></member>
+      <member refid="struct_duz_1abd5a20344f28f0aa7e1866158eee381e" prot="public" virt="non-virtual"><scope>Duz</scope><name>postaviIDDuzi</name></member>
+      <member refid="struct_duz_1abd5a20344f28f0aa7e1866158eee381e" prot="public" virt="non-virtual"><scope>Duz</scope><name>postaviIDDuzi</name></member>
+      <member refid="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" prot="public" virt="non-virtual"><scope>Duz</scope><name>postaviKrajnjuKoordinatu</name></member>
+      <member refid="struct_duz_1a6d90841b83d7f5fe8cdd1c5f53b97396" prot="public" virt="non-virtual"><scope>Duz</scope><name>postaviKrajnjuKoordinatu</name></member>
+      <member refid="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" prot="public" virt="non-virtual"><scope>Duz</scope><name>postaviPocetnuKoordinatu</name></member>
+      <member refid="struct_duz_1a792b22a53508d3c3414bd6eba4903bb3" prot="public" virt="non-virtual"><scope>Duz</scope><name>postaviPocetnuKoordinatu</name></member>
+      <member refid="struct_duz_1a554fe11a180cd764811139fd01bf4497" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiIdDuzi</name></member>
+      <member refid="struct_duz_1a554fe11a180cd764811139fd01bf4497" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiIdDuzi</name></member>
+      <member refid="struct_duz_1af397176a5357fecb7f785ad9685d53b2" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiKrajnjuKoordinatu</name></member>
+      <member refid="struct_duz_1a3729d02c0b3d5b8181b398dc81ec79a4" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiKrajnjuKoordinatu</name></member>
+      <member refid="struct_duz_1af397176a5357fecb7f785ad9685d53b2" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiKrajnjuKoordinatu</name></member>
+      <member refid="struct_duz_1a3729d02c0b3d5b8181b398dc81ec79a4" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiKrajnjuKoordinatu</name></member>
+      <member refid="struct_duz_1a2662b456f15f42794ddb5c1bfc3f6bb4" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiPocetnuKoordinatu</name></member>
+      <member refid="struct_duz_1a3110e0ae026af8d6bb2d5de7662e7f8b" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiPocetnuKoordinatu</name></member>
+      <member refid="struct_duz_1a2662b456f15f42794ddb5c1bfc3f6bb4" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiPocetnuKoordinatu</name></member>
+      <member refid="struct_duz_1a3110e0ae026af8d6bb2d5de7662e7f8b" prot="public" virt="non-virtual"><scope>Duz</scope><name>vratiPocetnuKoordinatu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

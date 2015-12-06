@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_8838c8859190145fd5c0dbb93d82e03f" kind="dir">
+    <compoundname>GeneratedFiles</compoundname>
+    <innerdir refid="dir_70fb96b6318a7b25cde10f3889ba3a36">GeneratedFiles/Debug</innerdir>
+    <innerdir refid="dir_72c244b9c1f6955be15f07f8b2d7fadd">GeneratedFiles/Release</innerdir>
+    <innerfile refid="qrc__resursi_8cpp">qrc_resursi.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Samir/app/GeneratedFiles/"/>
+  </compounddef>
+</doxygen>
